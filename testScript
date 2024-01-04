@@ -1,1 +1,29 @@
-Okay i'm going to try and write a test
+#Test script for renpy syntax
+
+
+label brunch:
+	default stupidVariable = False
+	$ cuckCounter = 0 
+
+	play music "porn_music.wav"	
+
+	Fi "okay i'm a fucking loser, i know... when you die, please let me die with you, i want the sweet release of non-existance XD lmao"
+	show Fi_suprised with easeinbottom
+
+	Ali "y r u so lainpilled today? fkng skrunglemoder"
+	play sound "fallingDrainPipe.mp3"
+	queue sound "vineBoom.mp3"
+
+	menu:
+		"what should i do?"
+		"Fuck her":
+			jump fuck
+		"commit sudoku":
+			jump sudoku
+
+label fuck:
+	show Fi_chastity
+	show Ali_mommy 
+	with easeinbottom
+	$ cuckCounter += 1 
+		
