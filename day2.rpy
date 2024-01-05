@@ -9,6 +9,9 @@
 #Sees someone busking/band poster or something, she gets interested in music
 #"oh yeah i think i have an old guitar underneath my bed"
 
+#on the way home you come across a butterfly, which ends up dropping dead after stopping on her finger
+#she explains about her toxicity, and the danger she poses to people in high doses
+
 #get home, missed call from dad, who saw account activity from where you went shopping
 #choice -> call back?
 #if call back trust++
@@ -18,4 +21,5 @@
 #after call you talk to alice who's been messing around on guitar
 #deep conversation about parents and past
 
-#defuse by doing something together
+#<- maybe the order here needs to change ->
+#defuse by doing something together, show her music on youtube?  maybe you show her a little bit before, and then something after?
