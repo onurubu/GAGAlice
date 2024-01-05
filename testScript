@@ -4,15 +4,20 @@
 label brunch:
 	default stupidVariable = False
 	$ cuckCounter = 0 
+	show bedroom
 
+	#music fades
 	play music "porn_music.wav"	
 
 	Fi "okay i'm a fucking loser, i know... when you die, please let me die with you, i want the sweet release of non-existance XD lmao"
-	show Fi_suprised with easeinbottom
+	show Fi_suprised at right with easeinbottom
 
 	Ali "y r u so lainpilled today? fkng skrunglemoder"
+	
+	#sound doesn't loop
 	play sound "fallingDrainPipe.mp3"
 	queue sound "vineBoom.mp3"
+	stop music fadeout(2)
 
 	menu:
 		"what should i do?"
@@ -22,8 +27,16 @@ label brunch:
 			jump sudoku
 
 label fuck:
-	show Fi_chastity
-	show Ali_mommy 
+	show Fi_chastity at right
+	show Ali_mommy  at left
 	with easeinbottom
+	
+	#removes all previous assets
+	scene bedroom with fade
+	
 	$ cuckCounter += 1 
+	
+	#renpy knows what this means
+	scene black
+
 		
