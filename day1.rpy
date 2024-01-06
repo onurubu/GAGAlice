@@ -1,8 +1,53 @@
-#wake up
+define ali = Character("Alice", color = "440a1f",callback=character_beeps)
 
-#hear voice 
+#na is unknown speaker
+#[make character beeps dif for Alice and Button]
 
-#pull on mushroom
+label:day1Alice
+    stop music fadeout(2)
+    show black with fade
+    
+    #variables
+    $aliceTrust = 0
+    #keep original script up to "{size=-8}"
+    
+    #SIloutte animation of her breaking out by herself
+    show mc shocked at right with move
+    show alice tsun at left 
+    na"I guess this is your room? Smaller than I hoped for but this will work."
+    m"..."
+    m"WHAT THE FUCK"
+    show alice tsun annoyed
+    na""
+    #keep going
+
+#name input
+    $label name_ali: 
+        $playername = renpy.input("quesionts goes here", length = 8).strip().lower().capitalize()
+        #make an array of bad cases and check if the name is in the array
+        if playername == "bad case":
+            "...%(player_name)"
+            show alice meanLaugh
+            #like aqua from konosuba
+            na"Hold on a second... THAT'S your name?"
+            show mc stressed
+            m"No! I just stuttered..."
+            na"Okay."
+            show alice tsun
+            na"then what is your name then?"
+            jump name_ali
+        if playname = "":
+            "Can't even remember your own name... Come on..."
+            "I guess you <b>really</b> can't do anything right."
+            ""
+
+
+
+
+
+
+
+
 label intro:
 
 #comes out
