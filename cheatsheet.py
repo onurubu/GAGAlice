@@ -26,3 +26,4 @@ give up
 #in button route change naming function to one line capitalize script and check against bad cases
 #why is sabrina using playername and player_name (really bad and confusing code practice)
 
+#make sure the narration is consistnet with tense

@@ -102,7 +102,7 @@ label:day1Alice
         "Without answering your question, she takes a confident lunge in your direction"
         "Her face appoaches yours suddenly"
         "You throw your center of balance backward to evade her advance, but you start to fall backwards"
-        "Her pale hand pinches the neck of your oversized hoodie, preventing your descent"
+        "Her hand pinches the neck of your oversized hoodie, preventing your descent"
         "She tightens her grasp and shifts her own body weight forward, bringing her face closer to yours."
         "You pause, suspended in place for what feels like minutes"
         "You stare at her face"
@@ -110,11 +110,26 @@ label:day1Alice
         "Your gaze shifts to her lips, which shimmer as if moist"
         show mc stressed
         m"...!"
-        "You push her away and regain your composure"
+        "You lightly push her away and regain your composure"
+        #feels super sudden, maybe make this happen after a few attempts.
+        #She should be more just confused and taken aback
+        #maybe she's more touchy and assertive at first
+        #pov of mc feeling uncomfy about it
         show alice sad
-        na"Ow...What's wrong with you? Isn't this what you wanted?"
+        na"Huh...What's wrong with you? Isn't this what you wanted?"
         m"Huh? What are you talking about? I have NO idea what's going on right now?"
-        na"...So... You don't want me?"      
+        
+#add stuff here
+
+	#she explains in no uncertain terms what is 'about to happen'
+	#MC doesn't seem so into the idea
+	#She tries to gesture to like "Look at me, be honest with yourself"
+	#(It's a given that anyone should be into me)
+	
+	#She tries once again to reinitiate
+	#But this time mc is more vocal/aggresive, and it shocks her
+
+	na"...So... You don't want me?"      
         m"?"
         na"That's not what's supposed to happen..."
         na"I'm supposed to entice anyone to abandon reason."
@@ -235,6 +250,7 @@ label:day1Alice
         m"Like... Is that how I'm supposed to act?"
         m"Is that how guys are supposed to think about girls?"
         "You're just afraid"
+        #too obvious, rewrite to be more subtle
         "Any girl who gets to know you is going to be repulsed like SHE was"
         m"Tch, just remembered something I was trying to forget"
         "You're unloveable"
@@ -247,13 +263,70 @@ label:day1Alice
         #choice where to check -> go somewhere stupid then bad end
         "I turn toward the staircase leading to the roof."
         "There's a small chain barring access, but I easily step over it"
+       
+
+
+#why would the player know to check on the roof?
+
         play sound footstepsEchoingStairs
         scene rooftop afternoon
         play music wind
-        "You walk:"
+
+	
+        "You walk up the narrow set of stairs and arrive onto the roof of your dormitory building."
+	"From here, you can look out at the university campus that you haven't explored since your first semester of classes."
+	"Ivy grows on the walls to either side of a large stairset, that climbs from the bottom of the campus, towards the ceremonial hall"
+	"You remember sitting there during your initial orientation and listening to long speeches about how you as the youth of the world"
+	"Are here to learn the skills necessary to make the world a better place."
+	"..."
+	"Sometimes you think about how when you graduate, you will feel like it was truely a waste:"
+	"That you spent so much of your youth so close to such incredible architecure;"
+	"And so many other people trying their best to make their dreams come true."
+	"..."
+
+	#find her on the rooftop
+	"You look "
+	#Tears/swollen eyes, but calmer
+	#She starts she conversation in a sad tone
+	#as a mushroom, she doesn't have memories or a sense of personal identity
+	#She does have instinct and the information in her DNA
+	#In that DNA there's a clear purpose, be desireable, be pretty
+	#If she isn't those things, she has no sense of meaning
+	#That's why she wants for him to look at her
+	#To use her
+	#So that she can feel like it was worth it.
+	#Not because she likes him, or wants to do the act as itself, but because she wants the validation it implies.
+	
+	#MC explains that humans too have biological instincts for survival
+	#There's some stuff we can't ignore, like food, water, shelter love
+	#But sometimes that desire causes more problems for us like obesity with candy
+	#Sometimes those instincts lead for us to harm the environment, step on other people, and to be discimantory
+	#As sentient things, we need to learn to overcome our 'nature' sometimes, in order for us to be happy
+	#Obviously it's not that simple
+	#but mc wants alice to find what makes her happy outside of her assigned purpose
+	
+	#She looks at the vastness of the city and feels like there's more possibility than she could have imagined
+	#Maybe even she can try to find some kind of meaning in life 
+	#Everything in life is meaningless, so we get to pick whats meaningful for ourselves.
+	#She smiles at you and feels a little better
+	
+	#You walk back down to the room with her
+	#You decide what to call her
+	
+	#it's evening now
 
 
 
+
+
+
+
+
+
+#--------------------------------
+
+
+#try her telling her name here, vs earlier
 
 
 

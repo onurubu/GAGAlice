@@ -1,4 +1,6 @@
-#choose mushroom type
+#Make inner voice more mean
+
+    #choose mushroom type
 label chooseFly:
     m"I guess this one looks kind of colorful and... pretty... I guess"
     "*click click*"
@@ -11,7 +13,7 @@ label chooseFly:
     m"I mean, it's on the site so it's probably fine... Right?"
     "Let's hope your unfounded faith in the meritocrisy of Capitalism pays off this time"
     #feel like this might feel preachy to some people
-    "Okay, you can crawl back to your bed and keep doing nothing with your life until it's here"
+    "Okay, you can crawl back to your bed and keep wasting your life until it's here"
     scene black with fade
     stop music fadeout(3)
     show chibi_sleep at truecenter with Dissolve(2)
@@ -37,7 +39,7 @@ label chooseFly:
     "But not destroyed by the savages of war."
     na"Hello? Is anyone home? I have a parcel from the reception for you..."
     #maybe here we can make this interaction a little longer, 
-    #give the nieghbour little bit of a personality, then see how mc interacts.
+    #give the little bit of a personality, then see how mc interacts.
     "See, you can't even seperate reality from your juvinile nightmares"
     na"I'm going to leave the package on the doorstep then..."
     "You hear the muffled sound of the package being placed down, followed by a couple of doorsteps, and a door down the dormitory corridor unlocking."
