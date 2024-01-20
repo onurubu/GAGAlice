@@ -244,6 +244,7 @@ label:day1Alice
             m"I'm sorry, I think i've gotta go"
             rb"Don't have too much fun"
             rb#winky emoji... maybe all of the emojis are his waifu
+            
         "You close the window, and turn away from your computer screen."
         show mc stressed
         m"Am I the weird one?"
@@ -255,6 +256,7 @@ label:day1Alice
         m"Tch, just remembered something I was trying to forget"
         "You're unloveable"
         "Even if you tried you couldn't meet the minimum standards of a boyfriend"
+        
         m"GAAAH!"
         "You shake your head and get up suddenly"
         m"Whatever! I don't care... Let's just go and find her"
@@ -297,6 +299,11 @@ label:day1Alice
 	#So that she can feel like it was worth it.
 	#Not because she likes him, or wants to do the act as itself, but because she wants the validation it implies.
 	
+    #[maybe she has some kind of internal conflict where she's afraid of getting close to people because she's literally poisonous]
+    #but is it fine as long as she doesn't care about them? so she's scared of trusting someone, because her poison will hurt them
+    #and push them away, so its easier she doesn't even try
+    #or that she only uses them for sex, validation, then throws them away
+
 	#MC explains that humans too have biological instincts for survival
 	#There's some stuff we can't ignore, like food, water, shelter love
 	#But sometimes that desire causes more problems for us like obesity with candy
@@ -314,6 +321,13 @@ label:day1Alice
 	#You decide what to call her
 	
 	#it's evening now
+    #you ask her how she wants to spend the rest of the evening
+
+    #i don't know what she wants to do, decide this
+
+    #you say that you're getting a little sleepy, and she gives an offer to 'spend the night with her" again
+    #you decline
+    #after spending some time with her you decide to sleep
 
 
 
