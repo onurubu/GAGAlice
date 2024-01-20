@@ -66,6 +66,9 @@
 #you set it up for her and she starts messing around (not really knowing what to do)
 #You've never been good at gutiar but your parents paid for lessons for you for a semester in highschool, but you never practiced, so they stopped paying
 #you show her the very basics of low vs high string, and how to fret. show her an E minor chord
+#it's a little out of tune, so you try to tune it up, and when you do the high e string snaps
+#she's visibly disappointed, but is still eager to keep playing
+
 #while she's messing around you get up and see your phone on your desk
 
 #missed call from dad, who saw account activity from where you went shopping
@@ -80,7 +83,10 @@
 #[do you only show one side of it or skip dialogue or whole dialogue]
 
 #after call you talk to alice who's been messing around on guitar
+#she's already started figuring out nice sounding chords you don't think you've ever played 
+# you're a little overwhelmed by how quick she's learning
 #deep conversation about parents and past
 
 #<- maybe the order here needs to change ->
 #defuse by doing something together, show her music on youtube?  maybe you show her a little bit before, and then something after?
+#You make a promise that tomorrow you would go to a music store and buy a new set of strings
