@@ -1,4 +1,5 @@
 #Make inner voice more mean
+#aim for 200-300 lines
 
     #choose mushroom type
 label chooseFly:

@@ -4,6 +4,7 @@ init python:
     while i<7:
         layerName="layer"+str(i)
         renpy.music.register_channel(layerName, "music")
+        i+=1
 
     #Character beeps:  
     renpy.music.register_channel("Beep", mixer="voice")
@@ -22,6 +23,7 @@ init python:
         while i<7:
             layerName="layer"+str(i)
             renpy.music.stop(channel=layerName, fadeout=delay)
+            i+=1
 
     def update_layers(delay=1):
         layers = [0,0,0,0,0,0,0]
@@ -29,6 +31,7 @@ init python:
             i=0
             while i<sadness:
                 layers[i]=1
+                i+=1
         elif sadness==100:
             layers[2]=1
         else:

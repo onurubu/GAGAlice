@@ -1,7 +1,7 @@
 define ali = Character("Alice", color = "440a1f",callback=character_beeps)
 
 #feel like it's not funny enough, prob needs more humour
-
+#aim for 1500 lines across all endings
 #na is unknown speaker
 #[make character beeps dif for Alice and Button]
 

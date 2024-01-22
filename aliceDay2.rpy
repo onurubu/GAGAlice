@@ -1,3 +1,4 @@
+#aim for 1700-2000 lines across all endings
 #wake up
 #she waters herself
 
