@@ -85,7 +85,24 @@
 #after call you talk to alice who's been messing around on guitar
 #she's already started figuring out nice sounding chords you don't think you've ever played 
 # you're a little overwhelmed by how quick she's learning
-#deep conversation about parents and past
+
+#You start to lash out at her
+#choice as to whether to fully give into it or whether to take a step back
+#She's on the verge of tears, and you take a step back
+#Explain that your relationship with your parents isn't ideal, and that they aren't proud of who you are but only when you 
+#match the image of you they already have
+
+#A huge part of why you're afraid to do stuff, make music, wear clothes, (be like your neighbour) is that you've always been given a hard time
+#just want to love myself, but every step i make towards that is met with pain
+#So i'm stuck between trying to pretend to be who they want, and trying to express who i am, and both of those aren't an option
+#maybe that's why I'm stuck in this small room, feeling like my life is on hold
+#but time keeps moving, i keep aging, i can't stay in uni for ever, and I'm going to die one day
+#and that's scary
+
+#alice listens to what you have to say (how does she respond?)
+#beware of just telling and not showing (try to be more subtle maybe?)
+
+#how do you spend the rest of the evening? Watch the dvds from neighbour?
 
 #<- maybe the order here needs to change ->
 #defuse by doing something together, show her music on youtube?  maybe you show her a little bit before, and then something after?

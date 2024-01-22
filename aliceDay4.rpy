@@ -6,3 +6,6 @@
     #cuts to epilogue of you a few weeks later wearing clothing she pointed out for you
     #you press publish for your first ever youtube upload of a song you wrote: 
     #in the thumbnail we get to see, we see that the main character bought the guitar from the store
+    #maybe in the epilogue the main character is getting ready for his first live show with his band and it ends with him 
+    #meeting up with the other band members, including the neighbour who he is now friends with 
+    #maybe he is dressed slightly more femme in terms of hairstyle or something

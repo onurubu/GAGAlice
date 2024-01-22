@@ -298,7 +298,8 @@ label:day1Alice
 	#To use her
 	#So that she can feel like it was worth it.
 	#Not because she likes him, or wants to do the act as itself, but because she wants the validation it implies.
-	
+    
+    #here its important to talk about her lifespan as a mushroom too, whether or not she's edible etc.
     #[maybe she has some kind of internal conflict where she's afraid of getting close to people because she's literally poisonous]
     #but is it fine as long as she doesn't care about them? so she's scared of trusting someone, because her poison will hurt them
     #and push them away, so its easier she doesn't even try
