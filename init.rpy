@@ -50,9 +50,6 @@ init python:
     renpy.music.set_volume(layer5, delay=delay, channel='layer5')
     renpy.music.set_volume(layer6, delay=delay, channel='layer6')
 
-    
-
-
     def character_beeps(event, interact=True, **kwargs):
         if not interact:
             return
@@ -91,6 +88,13 @@ define ba = Character("Agaricus bisporus", color = "#440a1f",callback=character_
 define na = Character("???", color = "#000000",callback=character_beeps)
 define m = Character("[playername]", color = "#38425F",callback=character_beeps_low)
 define cen = Character(None, what_xalign=0.5, what_text_align=0.2,  text_xpos=0.5)
+#TODO: add a new beep class for alice
+define ali = Character("Alice", color = "#c61a09",callback=character_beeps)
+
+#Bad Name Array
+#It might be a funny easter egg if we pick a random name here like Brian or something, and make it not available
+$ badNames = ["Button","Alice"]
+
 
 #Images:
 image choicebox1_animated_idle  = Animation("gui/choicebox/choice1_idle.png", 0.5, "gui/choicebox/choice2_idle.png", 0.5)

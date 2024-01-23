@@ -5,9 +5,12 @@
 label chooseFly:
     m"I guess this one looks kind of colorful and... pretty... I guess"
     "*click click*"
-    m"That was easy to order, it even takes PayFriend..."
-    m"Maybe it will make me grow into Super %s{player name}"
+    m"That was easy to order, it even takes PaePal..."
+    m"Fly amanita... That's like a toadstool right?"
+    show finn_happy
+    m"Maybe this mushroom will make me grow double my size, and break bricks with my barehands"
     "Are you done being stupid?"
+    show finn_sad
     m"..."
     "Aren't red mushrooms like this dangerous? If this kills you, you can only blame yourself for being dumb enough to order it"
     m"..."
@@ -26,36 +29,37 @@ label chooseFly:
     queue sound "knock.wav"
     show chibi_awake at truecenter
     play music "heartbeat.wav"
-    "SOMEONE IS HERE??!!"
-    "You are suddenly pulled back into conciousness by the sound of a near by bomb impact"
+    "You are suddenly pulled back into conciousness by the sound of a nearby bomb impact"
     "You instinctively cover yourself with your blanket, not that it will make a difference in your chances of survival."
     "You prepare for your conciousness to exit this reality, and for your sense of being to dissolve into nothingness"
     "..."
     show chibi_scared at truecenter
 
-    #keep this scene to develop neighbour a bit more before he is introduced later
-
-    "You lift the blanket off of your head, and examine your room, which looks exactly as you remember it:"
+    "You lift the blanket off of your head, and examine your room."
+    "..."
+    "It looks exactly as you remember it:"
     "filthy and disorganized."
     "But not destroyed by the savages of war."
     na"Hello? Is anyone home? I have a parcel from the reception for you..."
-    #maybe here we can make this interaction a little longer, 
-    #give the little bit of a personality, then see how mc interacts.
+    "A familiar voice resonates dully through your front door"
+    "..."
     "See, you can't even seperate reality from your juvinile nightmares"
     na"I'm going to leave the package on the doorstep then..."
-    "You hear the muffled sound of the package being placed down, followed by a couple of doorsteps, and a door down the dormitory corridor unlocking."
+    "You hear the muffled sound of the package being placed down, followed by a couple of doorsteps."
+    "The sound of door unlocking, being pulled open, and closing again echoes through the dormitory passageway"
+    "It takes only seconds for the sound to fade, leaving only the faint sounds of birds and morning traffic from the opposite side of your window."
     "He's gone..."
     "When was the last time you even actually talked to someone face to face?"
-    #maybe in this route you would get the guitar from needing to get the courage to talk to your neighbour and asking if you can borrow a guitar for few days?
     "..."
     m"That was my neighbour..."
     m"I've heard him listening to loud music before..."
     m"Sometimes I feel like I should just go over and introduce myself..."
-    m"But I think of everything that could go wrong."
+    m"But then I think of everything that could go wrong."
+    m"Wouldn't it be super weird if I just waltz over?"
     m"I don't even know if that's something dorm neighbours do... Especially when we've already been here for over a year"
     m"I think I lost my chance... Besides, he listens to loud guitar music with scary singing sometimes"
     m"Makes me think he might be super scary too..."
-    m"But his voice sounded kind..."
+    m"But his laughing I've heard through the walls sounded kind..."
     "Are you done yet?"
     "You lift your head of from your pillow and turn to get out of bed."
 
@@ -89,7 +93,7 @@ label chooseFly:
             show mc at center with move
             show mc normal
             m"I don't know everything, and I think that the people making the product probably know how I'm supposed to use it."
-            m"Let's just do it by the... pamphlet..."
+            m"Let's just do it by the book... or pamphlet... I guess?"
         "Now comes the hard part..."
         "..."
         "What are you waiting for? No one else is going to open the curtains for you."

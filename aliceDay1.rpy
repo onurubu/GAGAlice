@@ -1,7 +1,6 @@
-define ali = Character("Alice", color = "440a1f",callback=character_beeps)
 
 #feel like it's not funny enough, prob needs more humour
-#aim for 1500 lines across all endings
+
 #na is unknown speaker
 #[make character beeps dif for Alice and Button]
 
@@ -16,39 +15,42 @@ label:day1Alice
     #SIloutte animation of her breaking out by herself
     show mc shocked at right with move
     show alice tsun at left 
-    na"I guess this is your room? Smaller than I hoped for but this will work."
+    na"So this is your room? Smaller than I hoped for but I suppose this will work."
     m"..."
-    m"WHAT THE FUCK"
+    m"WHAT THE FUCK?!?!"
     na"..."
     "She unapologetically grabs the spray bottle on the table beside her"
-    "She pulls the trigger and a cloud of mist appears in front of her"
-    "She steps through it and towards me"
+    "She pulls the trigger swiftly and a cloud of mist appears in front of her"
+    "She steps slowly through it and towards me"
     
     #staring down at you cruelly
     show alice tsun annoyed
-    na"What a warm welcome...."
+    na"What a warm welcome... You really have a way with words."
 
     #gets reflexively small and subby
     show mc sad
     m"I'm sorry..."
+    "..."
     show mc shocked
-    m"WAIT A SEC! WHO... or...what?... THE HELL ARE YOU?!"
+    m"WAIT A SEC! WHO-... or...what?... THE HELL ARE YOU?!"
     show alice sad
-    na"How pitiful... I would have hoped that my parent would be able to perform basic congnitive tasks"
+    #I think the word she chooses to use here to address him such as client, parent, guardian, is really important! come back here later
+    na"How pitiful... I would have hoped that my client would be able to perform basic congnitive tasks"
     na"But I suppose the surreal allure of my visage is beyond your comprehension"
     show alice despair
     na"Truely pitiful..."
     m"You're... the mushroom I bought?"
     na"It seems you have something resmebling sentience... Well Done."
     show mc angry
-    m"THAT'S MY LINE"
+    m"THAT'S MY LINE!!!"
+    m"YOU'RE TALKING!"
     show alice neutral
     na"..."
-    na"Seeing as your brain is functioning to some degree, perhaps you could tell me your name?"
+    na"Seeing as your brain is functioning to _some_ degree, perhaps you could tell me your name?"
     show mc awed
     m"Ummm... My name..."
     show alice sad
-    na"Forgive me, I should have chosen a less challenging display of intelligence"
+    na"Forgive me, I should have chosen a less challenging display of intelligence."
     show mc angry
     m"NO!!!"
     show mc sad
@@ -62,7 +64,7 @@ label:day1Alice
         $name_redo = False
         $playername = renpy.input("So, what do I call you?", length = 8).strip().lower().capitalize()
         #make an array of bad cases and check if the name is in the array
-        if playername == "bad case":
+        if playername in badNames":
             "...%(player_name)"
             show alice meanLaugh
             #like aqua from konosuba or uminekoBeatrice
@@ -244,7 +246,7 @@ label:day1Alice
             m"I'm sorry, I think i've gotta go"
             rb"Don't have too much fun"
             rb#winky emoji... maybe all of the emojis are his waifu
-            
+
         "You close the window, and turn away from your computer screen."
         show mc stressed
         m"Am I the weird one?"
