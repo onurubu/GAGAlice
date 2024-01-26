@@ -1,4 +1,6 @@
 #aim for 1700-2000 lines across all endings
+
+label:day2Morning
 #wake up
 #she waters herself
 
@@ -12,6 +14,7 @@
 #she offers to pick out some clothes for you
 #decide to go shopping with her
 
+label:day2date
 #she pushes you to try on clothes that you think don't suit you (pastel bright colors)
 
 
@@ -24,6 +27,7 @@
 #she's beaming and being a lot friendlier to you on the way back
 #you listen to her ranting about what she's excited to try
 
+label:day2WayHome
 #on the way home you come across a butterfly, which ends up dropping dead after stopping on her finger
 #her mood comes to a stand still
 #she stops wanting to talk
@@ -33,6 +37,7 @@
 
 #choice whether to get the courage to talk to neighbour
 
+labelDay2Neighbour
 #neighbour comes to his door
 #you're taken back by his clothing
 #you can see inside his room is fulled with colorful posters, chokers, thighghighs, other stuff like that
@@ -62,6 +67,7 @@
 #he offers to give you lessons
 #you turn him down, but he loans you : 1 guitar, an amp (has headphone-in), a box of different sorts of picks, 3 live bluerays for his fav bands
 #he apologizes that his spare guitar's strings are super old, but he needs his main gutiar for practice, and it's set to a weird tuning (and it's an 8 string)
+label:day2GuitarSetup
 #you waddle over back to your room after exhcanging discord accounts with him
 #alice is waiting inside and is super excited, but is trying to keep her composture (failing)
 #you set it up for her and she starts messing around (not really knowing what to do)
@@ -72,6 +78,7 @@
 
 #while she's messing around you get up and see your phone on your desk
 
+label:day2PhoneCall
 #missed call from dad, who saw account activity from where you went shopping
 #he won't give you your own card and has a card on his account so he gets a text msg when ever you spend money, and can see where
 
@@ -82,7 +89,7 @@
 #"I saw you bought some clothes... from a women's store... I didn't raise you to be like this" etc
 
 #[do you only show one side of it or skip dialogue or whole dialogue]
-
+label:day2DeepTalk
 #after call you talk to alice who's been messing around on guitar
 #she's already started figuring out nice sounding chords you don't think you've ever played 
 # you're a little overwhelmed by how quick she's learning
@@ -103,6 +110,7 @@
 #alice listens to what you have to say (how does she respond?)
 #beware of just telling and not showing (try to be more subtle maybe?)
 
+label:day2Evening
 #how do you spend the rest of the evening? Watch the dvds from neighbour?
 
 #<- maybe the order here needs to change ->
