@@ -3,19 +3,24 @@
 
     #choose mushroom type
 label chooseFly:
-    m"I guess this one looks kind of colorful and... pretty... I guess"
+    show finn happy 
+    m"This one looks kind of colorful and pretty!"
+    show finn sad
+    "... I guess"
     "*click click*"
     m"That was easy to order, it even takes PaePal..."
     m"Fly amanita... That's like a toadstool right?"
-    show finn_happy
-    m"Maybe this mushroom will make me grow double my size, and break bricks with my barehands"
+    show finn happy
+    m"Maybe this mushroom will make me grow double my size, and break bricks with my bare-hands"
     "Are you done being stupid?"
-    show finn_sad
+    show finn sad
     m"..."
     "Aren't red mushrooms like this dangerous? If this kills you, you can only blame yourself for being dumb enough to order it"
+    ""
     m"..."
     m"I mean, it's on the site so it's probably fine... Right?"
-    "Let's hope your unfounded faith in the meritocrisy of Capitalism pays off this time"
+    "Let's hope your faith in the meritocracy of Capitalism pays off this time"
+    #"It's not like you have any 1-UPs" maybe keep the mario theme going? idk
     #feel like this might feel preachy to some people
     "Okay, you can crawl back to your bed and keep wasting your life until it's here"
     scene black with fade
@@ -42,10 +47,11 @@ label chooseFly:
     "But not destroyed by the savages of war."
     na"Hello? Is anyone home? I have a parcel from the reception for you..."
     "A familiar voice resonates dully through your front door"
+    #explain it wasn't a bomb, but it was knocking at the door
     "..."
     "See, you can't even seperate reality from your juvinile nightmares"
     na"I'm going to leave the package on the doorstep then..."
-    "You hear the muffled sound of the package being placed down, followed by a couple of doorsteps."
+    "You hear the muffled sound of the package being placed down, followed by a couple of footsteps."
     "The sound of door unlocking, being pulled open, and closing again echoes through the dormitory passageway"
     "It takes only seconds for the sound to fade, leaving only the faint sounds of birds and morning traffic from the opposite side of your window."
     "He's gone..."
@@ -61,6 +67,7 @@ label chooseFly:
     m"Makes me think he might be super scary too..."
     m"But his laughing I've heard through the walls sounded kind..."
     "Are you done yet?"
+    #make this more mean
     "You lift your head of from your pillow and turn to get out of bed."
 
 #instructions (are they different between routes?) 

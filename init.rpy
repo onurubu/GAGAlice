@@ -50,6 +50,7 @@ init python:
     renpy.music.set_volume(layer5, delay=delay, channel='layer5')
     renpy.music.set_volume(layer6, delay=delay, channel='layer6')
 
+#add new beep for each character
     def character_beeps(event, interact=True, **kwargs):
         if not interact:
             return
@@ -88,6 +89,7 @@ define ba = Character("Agaricus bisporus", color = "#440a1f",callback=character_
 define na = Character("???", color = "#000000",callback=character_beeps)
 define m = Character("[playername]", color = "#38425F",callback=character_beeps_low)
 define cen = Character(None, what_xalign=0.5, what_text_align=0.2,  text_xpos=0.5)
+
 #TODO: add a new beep class for alice
 define ali = Character("Alice", color = "#c61a09",callback=character_beeps)
 

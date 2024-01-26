@@ -4,7 +4,7 @@
 #na is unknown speaker
 #[make character beeps dif for Alice and Button]
 
-label:day1Alice
+label: ad1Morning
     stop music fadeout(2)
     show black with fade
     
@@ -12,9 +12,13 @@ label:day1Alice
     $aliceTrust = 0
     #keep original script up to "{size=-8}"
     
-    #SIloutte animation of her breaking out by herself
+    #TODO: add normal morning thing here
+
+    #Siloutte animation of her breaking out by herself
     show mc shocked at right with move
     show alice tsun at left 
+    #First line is super important so come back later
+    #Make it more impactful, pretending to be something you're not
     na"So this is your room? Smaller than I hoped for but I suppose this will work."
     m"..."
     m"WHAT THE FUCK?!?!"
@@ -97,6 +101,8 @@ label:day1Alice
         
         stop music
         
+        #interal dialaogue remind the player here that the player is internally panicing
+
         na"..."
         na"So, anyway... Should we start?"
         m"Ummm... Start...what?"
@@ -110,6 +116,8 @@ label:day1Alice
         "You stare at her face"
         "Her expression remains fixed in a neutral casual, but apathetic expression as she looks down at you."
         "Your gaze shifts to her lips, which shimmer as if moist"
+        #her scent makes your brain cloudy and harder to focus, but it's a warm and pleasant kind of sensation 
+
         show mc stressed
         m"...!"
         "You lightly push her away and regain your composure"
@@ -130,7 +138,7 @@ label:day1Alice
 	
 	#She tries once again to reinitiate
 	#But this time mc is more vocal/aggresive, and it shocks her
-
+    #choice: horrible turn down, passive let her do whatever, let her down nicely
 	na"...So... You don't want me?"      
         m"?"
         na"That's not what's supposed to happen..."
@@ -145,7 +153,7 @@ label:day1Alice
         na"..."
         na"{size=-8}What's wrong with me...{size=+8}"
         hide alice with easeoutbottom
-        "Before I can open my mouth, she turns towards to door"
+        "Before I can open my mouth, she turns towards the door"
         "She swiftly turns the door knob and runs out"
         "I hear her sobbing echo through the dormitory passage, and then fade into the distance"
         #maybe you only learn her name on the rooftop?
@@ -171,10 +179,12 @@ label:day1Alice
         m"Okay let's see what this buinness is 'ABOUT'"
         m"WHAT THE FUCK IS THIS??? IS THIS EVEN LEGAL????"
         m"So I'm supposed to grow a companion?"
-        m"Even I'm not THAT much on an incel"
+        m"Even I'm not THAT much of a loser." 
         m"..."
         m"So let me get this straight... "
         m"She's a mushroom companion... And her characteristics are... Unparalleled beauty and dominance?"
+        #maybe change this from dominance to confidence
+
         m"I mean, I guess she was pretty attractive, but I wasn't really paying attention to that."
         m"...only has 3 days to live..."
         "You sit in your gaming chair and stare blankly at the clock on your computer taskbar"
@@ -185,7 +195,7 @@ label:day1Alice
         "It's just a dischord message"
         "Oh it's Rom"
         "Even if you don't have any friends in the real world, you still know some people online."
-        "Even then though, you mostly talk in your small private server"
+        "Even then though, you mostly talk in a small private server"
         "There's about 10 people"
         "Last time you went into a larger server, you couldn't quite find the timing to talk"
         "Whenever you tried, people talked over you, and didn't seem to care about what you had to say"
@@ -199,12 +209,15 @@ label:day1Alice
             #maybe user types anything like emily is away?
 
             rb"sup i was wondering if you wanted to hop in vc"
+            "this is one of my few online friends..."
+            "Normally if I internally prepared for a few minutes, I might be able to talk for a bit"
+            "But right now, I don't have the capacity for that"
             m"Sorry, kinda busy rn... can you type?"
             rb"np i was just bored and your always online so..."
             m"ouch"
             #anime crying gif from rb
             rb"are u eeping soon? little eep moder?"
-            m"ijust got up"
+            m"i just got up"
             rb"o"
             rb"your sleep finally looped back to humanity"
             rb"vampirism cured"
@@ -244,7 +257,7 @@ label:day1Alice
             rb"sounds like I don't need my onahole anymore"
         m"What the fuck?"
             m"I'm sorry, I think i've gotta go"
-            rb"Don't have too much fun"
+            rb"don't have too much fun"
             rb#winky emoji... maybe all of the emojis are his waifu
 
         "You close the window, and turn away from your computer screen."
@@ -253,24 +266,33 @@ label:day1Alice
         m"Like... Is that how I'm supposed to act?"
         m"Is that how guys are supposed to think about girls?"
         "You're just afraid"
-        #too obvious, rewrite to be more subtle
+        #too obvious, erewrite to be more subtle
+        #i feel like this interaction maybe needs more impact?
         "Any girl who gets to know you is going to be repulsed like SHE was"
         m"Tch, just remembered something I was trying to forget"
         "You're unloveable"
         "Even if you tried you couldn't meet the minimum standards of a boyfriend"
         
+        #add a bit where he panics that someone might have seen her leave his room (maybe when you search for her, if you prioritize this, then bad)
         m"GAAAH!"
         "You shake your head and get up suddenly"
         m"Whatever! I don't care... Let's just go and find her"
         "You walk over to the door and walk through it into the corridor."
         "You look towards both ends of the passage, but there's noone there."
+        
+        #TODO:add a bit where he's feeling scared to go outside
+        #the only times he goes outside is to buy a new cardboard box of instant ramen
+        #salt contents are bad :c
+
         #choice where to check -> go somewhere stupid then bad end
         "I turn toward the staircase leading to the roof."
         "There's a small chain barring access, but I easily step over it"
        
 
 
-#why would the player know to check on the roof?
+        #why would the player know to check on the roof?
+        
+        #maybe the player was told that this mushroom likes high places 
 
         play sound footstepsEchoingStairs
         scene rooftop afternoon
@@ -288,6 +310,9 @@ label:day1Alice
 	"And so many other people trying their best to make their dreams come true."
 	"..."
 
+    #it feels like her chacter development goes too fast, and that too much is said and not told.
+    #move some of this convo to day 2, as she still needs to be toxic in day 2 as well.
+
 	#find her on the rooftop
 	"You look "
 	#Tears/swollen eyes, but calmer
@@ -301,7 +326,11 @@ label:day1Alice
 	#So that she can feel like it was worth it.
 	#Not because she likes him, or wants to do the act as itself, but because she wants the validation it implies.
     
+    #this makes the mc blushy and panic even more internally
+
     #here its important to talk about her lifespan as a mushroom too, whether or not she's edible etc.
+    #she discusses her view on death: i don't care about dying, as long as while i live i have some kind of meaning. I want to be loved.
+
     #[maybe she has some kind of internal conflict where she's afraid of getting close to people because she's literally poisonous]
     #but is it fine as long as she doesn't care about them? so she's scared of trusting someone, because her poison will hurt them
     #and push them away, so its easier she doesn't even try
@@ -319,7 +348,8 @@ label:day1Alice
 	#Maybe even she can try to find some kind of meaning in life 
 	#Everything in life is meaningless, so we get to pick whats meaningful for ourselves.
 	#She smiles at you and feels a little better
-	
+	#it's important here that she's not in as much as a state, but that she's not completelt over it: just enough to make it possible for the 2 of you to get along
+
 	#You walk back down to the room with her
 	#You decide what to call her
 	
