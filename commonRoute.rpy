@@ -90,13 +90,6 @@ label start:
         imagebutton:
             xanchor 0.5 yanchor 0.5 xpos 0.285 ypos 0.508 idle "pc/pc_hover.png" hover "pc/pc_click.png"
             action Jump("buy_mushroom")
-        #if window_open:
-        #    imagebutton:
-        #        xanchor 0 yanchor 0 xpos 0.78 ypos -0.12 idle "window/window_open_idle.png" hover "window/window_open_hover.png" action Jump("close_window_day_1")
-                
-        #else:
-        #    imagebutton:
-        #        xanchor 0 yanchor 0 xpos 0.78 ypos -0.12 idle "window/window_closed_idle.png" hover "window/window_closed_hover.png" action Jump("open_window_day_1")    
     
     label open_window_day_1:
         $ window_open = True
@@ -187,7 +180,7 @@ label start:
         window hide
         $ gt = True
         call screen buy_mushroom_screen
-
+#TODO:get rid of these old things
 
     label red:
         window show

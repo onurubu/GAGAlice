@@ -64,7 +64,7 @@ label: ad1Morning
     "You weren't mentally prepared to need to talk to someone... "
     show alice neutral
     na"So, what do I call you?"
-#name input
+    #name input
 
     label name_ali: 
         $name_redo = False
@@ -130,41 +130,46 @@ label: ad1Morning
         "Your mind"
         "It feels warm and fuzzy, almost like a pleasant numbness spreading from to core of your conciousness"
         "You feel your thoughts slow to a halt"
-
         "Your gaze shifts to her lips, which shimmer as if moist"
+        #maybe you lightly get away from her, regain your composture, and then only, do you have the panic response when she takes another step towards you.
         "The sound of your heart pounds violently through your ears"
         "Every fiber of your being is telling you to get away from her"
+        "You know intuitively, that if she gets close to you..."
         "YOU ARE GOING TO DIE"
         
         show mc stressed
         m"...!"
         "You snap to your senses and push her by her shoulders away from you"
         m"GET THE FUCK AWAY FROM ME!!"
-        "You're unable to control your emotions, as adrenaline to course through your brain"
+        "You're unable to control your emotions, as adrenaline courses through your brain"
         show alice shock
-       "You look back up at the girl, whose face is frozen with shock" 
-       na"..."
-       "Slowly, her expression darkens, and her bottom lip begins to tremble, as she turns her face downwards"
-       na"{size=-10}... you're not supposed to... i'm..."
-       "..."
-       m"{size=+10} Sorry, I didn't mean to yell... I'm just really-"
-       "Without stopping to listen to your apology, she continues to mumble to herself"
-       na"{size=-10}... i thought that you... "
+        "You look back up at the girl, whose face is frozen with shock" 
+        na"..."
+        "Slowly, her expression darkens, and her bottom lip begins to tremble, as she turns her face downwards"
+        na"{size=-10}... you're not supposed to... i'm..."
+        "..."
+        #choice: apologize, yell at her (be more subtle than that)
+        m"{size=+10} Sorry, I didn't mean to yell... I'm just really..."
+        "You trail off after noticing that she contiues to mumble to herself."
+        "She's clearly not listening"
+        na"{size=-10}... i thought that you... were meant to..."
+        "lose.. reason... maybe i'm just not...{size=+10} "
+        m"Hey, i'm trying to apologize but I need you to listen."
+        m"I was kind of freaked out that you got so close all of a sudden and-"
+        na"SHUT UP!"
+        "She suddenly snaps at you"
+        "Her face twists with rage and pain"
+        na"What's wrong with you?! Isn't this what you wanted?"
+        na"ISN'T THIS WHY YOU RAISED ME?"
+        mc"What are you talking about I-"
 
-
-
-
-
-
-
+        show alice sad
+        "You notice the shimmer of several drops on the floor."
 
         #feels super sudden, maybe make this happen after a few attempts.
         #She should be more just confused and taken aback
         #maybe she's more touchy and assertive at first
         #pov of mc feeling uncomfy about it
-        show alice sad
-        na"Huh...What's wrong with you? Isn't this what you wanted?"
-        m"Huh? What are you talking about? I have NO idea what's going on right now?"
         
 #add stuff here
 
@@ -224,6 +229,14 @@ label: ad1Morning
 
         m"I mean, I guess she was pretty attractive, but I wasn't really paying attention to that."
         m"...only has 3 days to live..."
+        
+        "So? Are you any closer to figuring out what is going on?"
+        
+        m"I guess so... I think maybe she was expecting for me to... ummm"
+        m"{i}use{/i} her..."
+        m"But I still don't get why she got mad and ran off"
+        "You really don't understand women do you?"
+
         "You sit in your gaming chair and stare blankly at the clock on your computer taskbar"
         m"Wow, that's just a lot to take in"
         play sound('message_notify.wav')
