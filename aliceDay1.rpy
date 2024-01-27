@@ -13,7 +13,9 @@ label: ad1Morning
     #keep original script up to "{size=-8}"
     
     #TODO: add normal morning thing here
-
+    "Everyday you dilligently watered your mushroom"
+    #You wake up and get ready to make morning coffee etc
+    "Then suddenly you hear a rustling sound from the corner of your room"
     #Siloutte animation of her breaking out by herself
     show mc shocked at right with move
     show alice tsun at left 
@@ -59,7 +61,7 @@ label: ad1Morning
     m"NO!!!"
     show mc sad
     m"Just give me a sec..."
-    "I wasn't mentally prepared to need to talk to someone... "
+    "You weren't mentally prepared to need to talk to someone... "
     show alice neutral
     na"So, what do I call you?"
 #name input
@@ -68,7 +70,7 @@ label: ad1Morning
         $name_redo = False
         $playername = renpy.input("So, what do I call you?", length = 8).strip().lower().capitalize()
         #make an array of bad cases and check if the name is in the array
-        if playername in badNames":
+        if playername in badNames:
             "...%(player_name)"
             show alice meanLaugh
             #like aqua from konosuba or uminekoBeatrice
@@ -102,6 +104,12 @@ label: ad1Morning
         stop music
         
         #interal dialaogue remind the player here that the player is internally panicing
+        "What is happening?"
+        #mc is still like "how are you talking, who and what are you"
+        #she answers by affirming her own prettyness and saying that is the important thing
+        #you're still like 'no but like, please answer my questions'
+        #she implies that she doesn't know anything complex, but instead has instincts for one thing
+        #she then starts to approach you
 
         na"..."
         na"So, anyway... Should we start?"
@@ -112,15 +120,44 @@ label: ad1Morning
         "You throw your center of balance backward to evade her advance, but you start to fall backwards"
         "Her hand pinches the neck of your oversized hoodie, preventing your descent"
         "She tightens her grasp and shifts her own body weight forward, bringing her face closer to yours."
-        "You pause, suspended in place for what feels like minutes"
         "You stare at her face"
         "Her expression remains fixed in a neutral casual, but apathetic expression as she looks down at you."
-        "Your gaze shifts to her lips, which shimmer as if moist"
-        #her scent makes your brain cloudy and harder to focus, but it's a warm and pleasant kind of sensation 
+        
+        "You notice a faint sweet, and somewhat earthy scent"
+        "Somewhere between the smell of coffee, vanilla, cinnamon and moss"
+        "You have suspended in place for what feels like several minutes"
+        "Each passing moment, the scent seeps further into your body"
+        "Your mind"
+        "It feels warm and fuzzy, almost like a pleasant numbness spreading from to core of your conciousness"
+        "You feel your thoughts slow to a halt"
 
+        "Your gaze shifts to her lips, which shimmer as if moist"
+        "The sound of your heart pounds violently through your ears"
+        "Every fiber of your being is telling you to get away from her"
+        "YOU ARE GOING TO DIE"
+        
         show mc stressed
         m"...!"
-        "You lightly push her away and regain your composure"
+        "You snap to your senses and push her by her shoulders away from you"
+        m"GET THE FUCK AWAY FROM ME!!"
+        "You're unable to control your emotions, as adrenaline to course through your brain"
+        show alice shock
+       "You look back up at the girl, whose face is frozen with shock" 
+       na"..."
+       "Slowly, her expression darkens, and her bottom lip begins to tremble, as she turns her face downwards"
+       na"{size=-10}... you're not supposed to... i'm..."
+       "..."
+       m"{size=+10} Sorry, I didn't mean to yell... I'm just really-"
+       "Without stopping to listen to your apology, she continues to mumble to herself"
+       na"{size=-10}... i thought that you... "
+
+
+
+
+
+
+
+
         #feels super sudden, maybe make this happen after a few attempts.
         #She should be more just confused and taken aback
         #maybe she's more touchy and assertive at first
@@ -153,9 +190,9 @@ label: ad1Morning
         na"..."
         na"{size=-8}What's wrong with me...{size=+8}"
         hide alice with easeoutbottom
-        "Before I can open my mouth, she turns towards the door"
+        "Before you can open my mouth, she turns towards the door"
         "She swiftly turns the door knob and runs out"
-        "I hear her sobbing echo through the dormitory passage, and then fade into the distance"
+        "You hear her sobbing echo through the dormitory passage, and then fade into the distance"
         #maybe you only learn her name on the rooftop?
         show mc stressed at center
         play music normal
@@ -210,8 +247,8 @@ label: ad1Morning
 
             rb"sup i was wondering if you wanted to hop in vc"
             "this is one of my few online friends..."
-            "Normally if I internally prepared for a few minutes, I might be able to talk for a bit"
-            "But right now, I don't have the capacity for that"
+            "Normally if you internally prepared for a few minutes, you might be able to talk for a bit"
+            "But right now, you don't have the capacity for that"
             m"Sorry, kinda busy rn... can you type?"
             rb"np i was just bored and your always online so..."
             m"ouch"
@@ -285,8 +322,8 @@ label: ad1Morning
         #salt contents are bad :c
 
         #choice where to check -> go somewhere stupid then bad end
-        "I turn toward the staircase leading to the roof."
-        "There's a small chain barring access, but I easily step over it"
+        "You turn toward the staircase leading to the roof."
+        "There's a small chain barring access, but you easily step over it"
        
 
 
@@ -300,11 +337,11 @@ label: ad1Morning
 
 	
         "You walk up the narrow set of stairs and arrive onto the roof of your dormitory building."
-	"From here, you can look out at the university campus that you haven't explored since your first semester of classes."
-	"Ivy grows on the walls to either side of a large stairset, that climbs from the bottom of the campus, towards the ceremonial hall"
-	"You remember sitting there during your initial orientation and listening to long speeches about how you as the youth of the world"
-	"Are here to learn the skills necessary to make the world a better place."
-	"..."
+        "From here, you can look out at the university campus that you haven't explored since your first semester of classes."
+        "Ivy grows on the walls to either side of a large stairset, that climbs from the bottom of the campus, towards the ceremonial hall"
+        "You remember sitting there during your initial orientation and listening to long speeches about how you as the youth of the world"
+        "Are here to learn the skills necessary to make the world a better place."
+        "..."
 	"Sometimes you think about how when you graduate, you will feel like it was truely a waste:"
 	"That you spent so much of your youth so close to such incredible architecure;"
 	"And so many other people trying their best to make their dreams come true."
@@ -328,15 +365,7 @@ label: ad1Morning
     
     #this makes the mc blushy and panic even more internally
 
-    #here its important to talk about her lifespan as a mushroom too, whether or not she's edible etc.
-    #she discusses her view on death: i don't care about dying, as long as while i live i have some kind of meaning. I want to be loved.
-
-    #[maybe she has some kind of internal conflict where she's afraid of getting close to people because she's literally poisonous]
-    #but is it fine as long as she doesn't care about them? so she's scared of trusting someone, because her poison will hurt them
-    #and push them away, so its easier she doesn't even try
-    #or that she only uses them for sex, validation, then throws them away
-
-	#MC explains that humans too have biological instincts for survival
+ 	#MC explains that humans too have biological instincts for survival
 	#There's some stuff we can't ignore, like food, water, shelter love
 	#But sometimes that desire causes more problems for us like obesity with candy
 	#Sometimes those instincts lead for us to harm the environment, step on other people, and to be discimantory
@@ -347,7 +376,7 @@ label: ad1Morning
 	#She looks at the vastness of the city and feels like there's more possibility than she could have imagined
 	#Maybe even she can try to find some kind of meaning in life 
 	#Everything in life is meaningless, so we get to pick whats meaningful for ourselves.
-	#She smiles at you and feels a little better
+	#She smiles faintly at you and feels a little better
 	#it's important here that she's not in as much as a state, but that she's not completelt over it: just enough to make it possible for the 2 of you to get along
 
 	#You walk back down to the room with her

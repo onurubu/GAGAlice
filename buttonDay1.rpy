@@ -125,7 +125,8 @@
                 jump name
 
 
-    label name:                
+    label name:       
+    #TODO: rewrite to be consitent with alice (in terms of code)
         $ player_name = renpy.input("What's your name?", length = 8)
         $ player_name = player_name.strip()
         $ player_case_insensitive = player_name.lower()

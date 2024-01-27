@@ -13,6 +13,8 @@ label:day2Morning
 
 #she offers to pick out some clothes for you
 #decide to go shopping with her
+#declare that maybe on the way we can try to find something for you to feel passionate about
+
 #internal worry about showing that part of it: you feel bad about it, but decideds to do it to make her feel better (+she's gonna die)
 
 label:day2date
@@ -37,6 +39,15 @@ label:day2WayHome
 #choice whether to get her to open up adds a point to trust
 #if trust is high enough
 #she explains about her toxicity, and the danger she poses to those around her (people) in high doses
+#at first she didn't have the tools to think about it, but she's starting to feel insecure about being perceived as dangerous
+
+   #here its important to talk about her lifespan as a mushroom too, whether or not she's edible etc.
+    #she discusses her view on death: i don't care about dying, as long as while i live i have some kind of meaning. I want to be loved.
+
+    #[maybe she has some kind of internal conflict where she's afraid of getting close to people because she's literally poisonous]
+    #but is it fine as long as she doesn't care about them? so she's scared of trusting someone, because her poison will hurt them
+    #and push them away, so its easier she doesn't even try
+    #or that she only uses them for sex, validation, then throws them away
 
 
 #arrive back, decide to let alice into your room first

@@ -16,12 +16,11 @@ label chooseFly:
     show finn sad
     m"..."
     "Aren't red mushrooms like this dangerous? If this kills you, you can only blame yourself for being dumb enough to order it"
-    ""
+    "There was something ominous about that product description too"
     m"..."
     m"I mean, it's on the site so it's probably fine... Right?"
-    "Let's hope your faith in the meritocracy of Capitalism pays off this time"
+    "Let's hope your faith in the meritocracy of capitalism pays off this time"
     #"It's not like you have any 1-UPs" maybe keep the mario theme going? idk
-    #feel like this might feel preachy to some people
     "Okay, you can crawl back to your bed and keep wasting your life until it's here"
     scene black with fade
     stop music fadeout(3)
@@ -47,7 +46,7 @@ label chooseFly:
     "But not destroyed by the savages of war."
     na"Hello? Is anyone home? I have a parcel from the reception for you..."
     "A familiar voice resonates dully through your front door"
-    #explain it wasn't a bomb, but it was knocking at the door
+    "It seems that you mistook the sound of knocking on the door for an aerial attack."
     "..."
     "See, you can't even seperate reality from your juvinile nightmares"
     na"I'm going to leave the package on the doorstep then..."
@@ -80,16 +79,17 @@ label chooseFly:
     m "I think these are the instructions?"
     play sound "page.wav"
     show instructions at truecenter with easeinbottom
+    #Instructions are basically the same as button but with the addition of "For maximum potency consume within 24 hours of maturation."
     window hide
     pause
     hide instructions with easeoutbottom
     show mc confused with easein bottom
     window show
 
-    #maybe reuse just this scene?
 
-    m"Bright... For mushrooms?"
+    m"Potency?... Bright... For mushrooms?"
     m"I don't know if this is right... Like the whole reason I got these is because mushrooms grow in dark places..."
+
     menu:
         m"Follow the instructions?"
         "Trust my gut.":
@@ -112,7 +112,6 @@ label chooseFly:
         screen open_window:
             #copy
         show mc shocked with easeinbottom
-        #maybe all of this should be the same... No point in fixing what ain't broke I guess
 
 
 #water them
