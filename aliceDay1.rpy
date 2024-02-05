@@ -100,20 +100,33 @@ label: ad1Morning
         m"What's that supposed to mean?!"
         show alice meanLaugh
         na"What ever you want for it to mean."
-        
+        "...'
         stop music
         
-        #interal dialaogue remind the player here that the player is internally panicing
-        "What is happening?"
-        #mc is still like "how are you talking, who and what are you"
-        #she answers by affirming her own prettyness and saying that is the important thing
-        #you're still like 'no but like, please answer my questions'
-        #she implies that she doesn't know anything complex, but instead has instincts for one thing
-        #she then starts to approach you
+        #Mc tries to get answers from her, while she subtlely tries to get closer to him
+        #show that mac is still panicing
+        #she brushes off your questions, while implying you should be paying more attention to her.
+        #"Maybe mc tries to ask her name but she blows him off."
 
+
+        m"So... Getting back on topic... I thought I was supposed to be growing a mushroom?"
+        na"Well, I suppose you were able to succeed in {i}something{/i} at least."
+        m"So... You're a mushroom then? Not like a scary alien that's going to lay eggs in my stomach or something?"
+        na"What are you talking about?"
+        "I didn't think that mushrooms were supposed to talk... or... be animate..."
+        na"You really seem to enjoy asking meaningless questions."
+        na"Why don't you stop thinking about hard stuff, and relax a little bit?"
+        "She lowers herself down onto the corner of the bed and leans back slightly, crossing one leg ontop of the other.'        
+        "She protudes the aura of a queen sitting on a throne."
+        #here she tries to get you to stop asking questions, and come over to her
+
+
+        #instead of these lines I think it should be more like she's getting fed up with her advances not working.
         na"..."
         na"So, anyway... Should we start?"
         m"Ummm... Start...what?"
+#------------------------------------------
+
         #i kind of picture the boxcutter scene from bakemonogatari here
         "Without answering your question, she takes a confident lunge in your direction"
         "Her face appoaches yours suddenly"
@@ -127,7 +140,7 @@ label: ad1Morning
         "Somewhere between the smell of coffee, vanilla, cinnamon and moss"
         "You have suspended in place for what feels like several minutes"
         "Each passing moment, the scent seeps further into your body"
-        "Your mind"
+        "Your mind begins to melt inside your head"
         "It feels warm and fuzzy, almost like a pleasant numbness spreading from to core of your conciousness"
         "You feel your thoughts slow to a halt"
         "Your gaze shifts to her lips, which shimmer as if moist"
@@ -154,7 +167,7 @@ label: ad1Morning
         "She's clearly not listening"
         na"{size=-10}... i thought that you... were meant to..."
         "lose.. reason... maybe i'm just not...{size=+10} "
-        m"Hey, i'm trying to apologize but I need you to listen."
+        m"Hey, I'm trying to apologize but I need you to listen."
         m"I was kind of freaked out that you got so close all of a sudden and-"
         na"SHUT UP!"
         "She suddenly snaps at you"
@@ -164,19 +177,16 @@ label: ad1Morning
         mc"What are you talking about I-"
 
         show alice sad
-        "You notice the shimmer of several drops on the floor."
+        "She turns away from you and dashes towards the door."
+        #I don't think she would be able to operate a lock, so maybe have a reason from earlier as to why the door is already open
+        "You stare blankly at her back, as she fumbles with the lock."
+        "..."
+        mc"She's gone..."
+        "Your line of sight slowly drops towards the floor as you hang your head"
+        "You notice several shimmering drops of clear liquid on the wooden flooring."
+        #is it even wood in the cg?
 
-        #feels super sudden, maybe make this happen after a few attempts.
-        #She should be more just confused and taken aback
-        #maybe she's more touchy and assertive at first
-        #pov of mc feeling uncomfy about it
-        
-#add stuff here
 
-	#she explains in no uncertain terms what is 'about to happen'
-	#MC doesn't seem so into the idea
-	#She tries to gesture to like "Look at me, be honest with yourself"
-	#(It's a given that anyone should be into me)
 	
 	#She tries once again to reinitiate
 	#But this time mc is more vocal/aggresive, and it shocks her
@@ -218,10 +228,11 @@ label: ad1Morning
         m"Why don't I look at the site I got it from... There must have been some kind of mistake or something."
         #show room, new dialogue for blahaj etc
         #click pc
-        m"Okay let's see what this buinness is 'ABOUT'"
+        m"Okay let's see what this buisness is 'ABOUT'"
         m"WHAT THE FUCK IS THIS??? IS THIS EVEN LEGAL????"
         m"So I'm supposed to grow a companion?"
         m"Even I'm not THAT much of a loser." 
+        "Who the hell is selling this kind of thing? And who is buying it?"
         m"..."
         m"So let me get this straight... "
         m"She's a mushroom companion... And her characteristics are... Unparalleled beauty and dominance?"
@@ -236,7 +247,7 @@ label: ad1Morning
         m"{i}use{/i} her..."
         m"But I still don't get why she got mad and ran off"
         "You really don't understand women do you?"
-
+        "Or anyone else for that matter"
         "You sit in your gaming chair and stare blankly at the clock on your computer taskbar"
         m"Wow, that's just a lot to take in"
         play sound('message_notify.wav')
@@ -315,20 +326,28 @@ label: ad1Morning
         m"Am I the weird one?"
         m"Like... Is that how I'm supposed to act?"
         m"Is that how guys are supposed to think about girls?"
+        m"Like... Is this sort of buisness just like... normal?"
+        "
         "You're just afraid"
-        #too obvious, erewrite to be more subtle
+        #too obvious, rewrite to be more subtle
         #i feel like this interaction maybe needs more impact?
-        "Any girl who gets to know you is going to be repulsed like SHE was"
+        "Anybody who gets to know you is going to be repulsed when they actually get to know you anyway."
+        "That's how it always has been"
+        "And always will be..."
+
         m"Tch, just remembered something I was trying to forget"
         "You're unloveable"
-        "Even if you tried you couldn't meet the minimum standards of a boyfriend"
-        
-        #add a bit where he panics that someone might have seen her leave his room (maybe when you search for her, if you prioritize this, then bad)
-        m"GAAAH!"
-        "You shake your head and get up suddenly"
-        m"Whatever! I don't care... Let's just go and find her"
+        "Even if you tried: you hoesntly think that YOU could play the role of boyfriend to someone" 
+        "Nobody would even want to be seen with you"
+        "..."
+        m"OH FUCK!"
+        "You spring out of your chair."
+        m"What if someone saw her leaving my dorm?!"
+        #what is he afraid of? just that he will be noticed? Why is being with a girl a negative thing?
+        m"I need to find her, and make sure no one sees her" 
+
         "You walk over to the door and walk through it into the corridor."
-        "You look towards both ends of the passage, but there's noone there."
+        "You look towards both ends of the passage, but no one is there."
         
         #TODO:add a bit where he's feeling scared to go outside
         #the only times he goes outside is to buy a new cardboard box of instant ramen
@@ -364,7 +383,7 @@ label: ad1Morning
     #move some of this convo to day 2, as she still needs to be toxic in day 2 as well.
 
 	#find her on the rooftop
-	"You look "
+	"You look around and see "
 	#Tears/swollen eyes, but calmer
 	#She starts she conversation in a sad tone
 	#as a mushroom, she doesn't have memories or a sense of personal identity
@@ -390,7 +409,7 @@ label: ad1Morning
 	#Maybe even she can try to find some kind of meaning in life 
 	#Everything in life is meaningless, so we get to pick whats meaningful for ourselves.
 	#She smiles faintly at you and feels a little better
-	#it's important here that she's not in as much as a state, but that she's not completelt over it: just enough to make it possible for the 2 of you to get along
+	#it's important here that she's not in as much as a state, but that she's not completely over it: just enough to make it possible for the 2 of you to get along
 
 	#You walk back down to the room with her
 	#You decide what to call her
