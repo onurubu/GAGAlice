@@ -17,6 +17,42 @@ label:day2Morning
 
 #internal worry about showing that part of it: you feel bad about it, but decideds to do it to make her feel better (+she's gonna die)
 
+ali"So are you going to just keep lying there, or...?"
+"You open your eyes to see Alice looking down on you"
+ali"You've been lying there for a while now... Aren't you bored?"
+show mc annoyed
+m"Don't you know what sleep is?"
+ali"Yeah, but you're only supposed to do that for 8 hours..."
+show alice disappointed
+ali"At night time."
+
+"You look over to your table, and pick up your phone"
+"It's dead. Not like anyone ever messages you anyway."
+
+m"What time is it?"
+ali"Well you've been out for like... 12 hours"
+
+m"Oh, so it's probably like 1pm or so?"
+m"What's the issue?"
+show alice disappointed
+
+ali"You're such a waste of space"
+ali"I'm honestly impressed you had time to remember to water me between sleeping the day away and listening to people on youtube tell you what cartoons are worth watching"
+
+m"...I was also... writing stories..."
+show alice laugh
+ali"You didn't even TRY to deny it"
+show mc humilated
+ali"I bet you didn't even finish a single one of them"
+m"..."
+show alice laugh cruel
+ali"See?"
+
+"It's like she's reading your mind"
+"She puts to words the things you think about yourself before the thought is even fully formed"
+"It's like she sees right through you"
+
+
 label:day2date
 #she pushes you to try on clothes that you think don't suit you (pastel bright colors)
 #Sees someone busking/band poster or something, she gets interested in music
