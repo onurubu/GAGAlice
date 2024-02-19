@@ -1,6 +1,14 @@
 #aim for 1700-2000 lines across all endings
 
 label:day2Morning
+
+#It's very important that alice has fun making fun of mc, in a sadistic way, but almost like nagatoro
+#It starts cruel, but gradually starts to reveal that at her core she really cares about him
+
+#If you can replace narration with dialogue, go back and do it! 
+
+
+
 #wake up
 #she waters herself
 
@@ -51,7 +59,33 @@ ali"See?"
 "It's like she's reading your mind"
 "She puts to words the things you think about yourself before the thought is even fully formed"
 "It's like she sees right through you"
+m"..."
+"You turn your head down towards the messy duvet you're sitting on to avoid her gaze"
+#she says one more mean thing here,  insulting your aethstetic and clothes 
+#realizes that you're crying and is kinda shocked, then tries to make you feel better (softens up)
+ali"Ummm... If you want I could help you... you know?"
+ali"Look less like your mom picks out your clothes from the bargain bin"
+m"Is that supposed to be an apology?"
+ali"Whatever, do you want my help or not?"
 
+"You pause for a moment to think about the offer"
+"You would need to go outside"
+"Where \"people\" are"
+m"Ummm...Not really"
+show alice shocked
+#Like GAN face here with sound effect, let it be sort of slapstick
+ali"but... I..."
+ali"..."
+show alice angry tears
+ali"Fine, what ever, die alone virgin, see if I give a fuck"
+mc"No wait, it's fine! We can go! Whereever, Whatever you want"
+show alice childlike joy
+ali"Really?"
+ali"..."
+ali"Hmph, fine, if you wanna go so bad, I guess I have no choice then"
+mc"{size-10} manipulateable"
+ali"{size+10} Did you say something"
+mc"No! Let's just go"
 
 label:day2date
 #she pushes you to try on clothes that you think don't suit you (pastel bright colors)
