@@ -21,7 +21,7 @@ show mc annoyed
 m"Don't you know what sleep is?"
 ali"Yeah, but you're only supposed to do that for 8 hours..."
 show alice disappointed
-ali"At night time."
+ali"At night time." # might be better to say "... and at night"
 
 "You look over to your table, and pick up your phone"
 "It's dead. Not like anyone ever messages you anyway."
@@ -42,6 +42,7 @@ m"How do you know what youtube is?"
 
 m"...I was also... writing stories..."
 show alice laugh
+# make sure this makes sense in context
 ali"You didn't even TRY to deny it"
 show mc humilated
 ali"I bet you didn't even finish a single chapter"
@@ -51,6 +52,8 @@ ali"See?"
 
 "It's like she's reading your mind"
 "She puts to words the things you think about yourself before the thought is even fully formed"
+# shes better at hating you than you ever could be. 
+# the one thing you were good at and you have been outclassed
 "It's like she sees right through you"
 m"..."
 "You turn your head down towards the messy duvet you're sitting on to avoid her gaze"
@@ -58,7 +61,7 @@ m"..."
 #realizes that you're crying and is kinda shocked, then tries to make you feel better (softens up)
 ali"Ummm... If you want I could help you... you know?"
 ali"Look less like your mom picks out your clothes from the bargain bin"
-m"Is that supposed to be an apology?"
+m"Is that supposed to be an apology?" #  "Is that supposed to be an make me feel better?"
 ali"Whatever, do you want my help or not?"
 
 #maybe need to explain that although she's only a day old, she has instinct for only few things:
@@ -79,7 +82,7 @@ ali"Fine, what ever, die alone virgin, see if I give a fuck"
 mc"No wait, it's fine! We can go! Wherever, Whatever you want"
 show alice childlike joy
 ali"Really?"
-ali"..."
+ali"..." # tsundere alice sprite
 ali"Hmph, fine, if you wanna go so bad, I guess I have no choice then"
 mc"{size-10} manipulateable"
 ali"{size+10} Did you say something"
@@ -101,14 +104,14 @@ show mc nervous
 m"Well... It's loud and there's lot's of people..."
 ali"Hmm? For such a stupid reason? I don't get that"
 ali"Anyway, now that we're here, let's try and find some stuff to gaslight people into thinking you're not a loser"
-m"How do you not what gaslighting is?"
+m"How do you know what gaslighting is?"
 ali"Does anyone REALLY know what it is?"
 m"Yes?"
 
 ali"Whatever, what about that place over there?"
 m"You mean the men's attire store?"
 m"Do you think I look like I have the money for a suit and tie?"
-ali"Yeah, and even if you did, it's not like it would /suit/ you anyway"
+ali"Even if you did, it's not like it would /suit/ you anyway"
 m"Hehe-"
 "You almost give in and laugh at her joke"
 "A joke at your expense"
@@ -141,12 +144,13 @@ m"Besides, I already can't deal with people..."
 m"How am I supposed to handle them if they stare at me"
 m"I just want to fade into the background"
 "In your room... Forever"
+# a room that isnt his and is temporary
 show alice neutral
 ali"Really?"
 m"..."
 
 ali"I'm going to die soon... I don't have much time left..."
-ali"And you have more... But even then"
+ali"And you have some more... But even then"
 ali"Your time is limited"
 ali"Don't you feel like it's a waste? Of youth? Of life?"
 ali"I think you're just scared"
@@ -158,11 +162,12 @@ show alice laugh cruel
 ali"So... let's get you some cute clothes!"
 m"That's where you were going with this?!?!?"
 ali"So that's a no then?"
-#choice: "We can take a look I guess", "Not in a million years, now way"
+#choice: "We can take a look I guess", "Not in a million years, no way"
 
 label: mallPastel
 trust ++;
 #cut to the mall later, with mc wearing a slightly oversized pastel pink hoodie
+# :3 insignia?
 show mc pink embaressed
 m"..."
 show alice smug
@@ -178,7 +183,7 @@ ali"So? Let them."
 
 m"easy for you to say"
 ali"What was that?"
-m"Easy for you to say when you could make rags work!!"
+m"Easy for you to say when you could even make rags work!!" # change this line X3
 show alice happy
 ali"You really think so?"
 m"That's not my point! I just mean like..."
@@ -225,7 +230,7 @@ m"..."
 ali"It's just a shame you want to hide away under all that fabric"
 ali"Wouldn't hurt you to show us some skin"
 show mc embarresed tears
-ali"But I guess  wasn't built in a day, and that suits you pretty good as is."
+ali"But I guess fruiting bodies don't grow in a day, and that suits you pretty good as is."
 
 ali"Anyways, it's still pretty early and we are here already so let's go somewhere else."
 m"Like where?"
@@ -243,7 +248,7 @@ ali"Whatever... So, where are we going"
 
 #cafe 
 #perfume store
-#Argula??? contrast of expectations
+#Argan??? contrast of expectations
 #kids store, plushies
 # resturant/ food area - chefs
 #arts and craft store
