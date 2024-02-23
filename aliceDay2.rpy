@@ -15,16 +15,6 @@ label:day2Morning
 #if trust == 0 then she's mopey, so make sure enough chances to get it to be > 1
 #talk to her
 
-
-#you compliment her style and sense of fashion
-#she roasts what you're wearing
-
-#she offers to pick out some clothes for you
-#decide to go shopping with her
-#declare that maybe on the way we can try to find something for you to feel passionate about
-
-#internal worry about showing that part of it: you feel bad about it, but decideds to do it to make her feel better (+she's gonna die)
-
 ali"So are you going to just keep lying there, or...?"
 "You open your eyes to see Alice looking down on you"
 ali"You've been lying there for a while now... Aren't you bored?"
@@ -68,6 +58,11 @@ ali"Look less like your mom picks out your clothes from the bargain bin"
 m"Is that supposed to be an apology?"
 ali"Whatever, do you want my help or not?"
 
+#maybe need to explain that although she's only a day old, she has instinct for only few things:
+#Fashion/beauty, the need to be desired, knowledge on her species, as well as arts 
+#(although the company programming tries to make her forget about that part)
+#maybe try to develop that motif a bit about like, her needing to fight her programming
+
 "You pause for a moment to think about the offer"
 "You would need to go outside"
 "Where \"people\" are"
@@ -78,7 +73,7 @@ ali"but... I..."
 ali"..."
 show alice angry tears
 ali"Fine, what ever, die alone virgin, see if I give a fuck"
-mc"No wait, it's fine! We can go! Whereever, Whatever you want"
+mc"No wait, it's fine! We can go! Wherever, Whatever you want"
 show alice childlike joy
 ali"Really?"
 ali"..."
@@ -87,8 +82,116 @@ mc"{size-10} manipulateable"
 ali"{size+10} Did you say something"
 mc"No! Let's just go"
 
+#Develop this conflict
+#You didn't want to fight and you feel sorry for her since she's going to die soon anyway  
+"You try not to think about the thought of other students seeing you leave the dorm together with a girl"
+#talk a little more about the traveling process and getting to the mall
+
+
 label:day2date
-#she pushes you to try on clothes that you think don't suit you (pastel bright colors)
+ali"Woah, what is this place?"
+m"I've only heard rumours, but I believe this place is called a 'mall'"
+show alice awe
+ali"A /mall/..."
+ali"Why would you stay inside all day when there's such vibrant places like this so close by?"
+show mc nervous 
+m"Well... It's loud and there's lot's of people..."
+ali"Hmm? For such a stupid reason? I don't get that"
+ali"Anyway, no that your here, let's try and find some stuff to gaslight people into thinking you're not a loser"
+m"How do you not what gaslighting is?"
+ali"Does anyone REALLY know what it is?"
+m"Yes?"
+
+ali"Whatever, what about that place over there?"
+m"You mean the men's attire store?"
+m"Do you think I look like I have the money for a suit and tie?"
+ali"Yeah, and even if you did, it's not like it would suit you anyway"
+"You know she's right"
+ali"So how about you give me something to work with?"
+ali"Makes it easier to at least know what we are going for"
+m"I guess I like grey-scale stuff that's not too flashy"
+ali"So what we came all this way so that you can keep trying to blend in with the shadows?"
+ali"Come on, you must like at least some /real/ colors"
+m"... I kinda... don't hate pastel stuff..."
+show alice laugh
+ali"Heeeh? That's unexpected. Didn't think you were the type for cute stuff like that"
+ali"Want me to pick you out a skirt too? I bet I can find one that will /really/ suit you"
+show mc embaressed panic
+m"What?! Why does lik- not hating pastels make me a creep like that?!"
+ali"You don't need to play stupid, I saw your wallpaper on your big screen thing"
+#Show like a cute kirby-ish wallpaper on the pc during the discord scene
+m"!"
+m"..."
+"She's got you there"
+ali"Besides, how is it creepy? I'm serious, I think you'd look really cute~"
+show mc embaressed
+m"Stop fucking with me..."
+show ali neutral
+ali"I'm not"
+m"There's no way you actually mean that..."
+
+m"Besides, I already can't deal with people..."
+m"How am I supposed to handle them if they stare at me"
+m"I just want to fade into the background"
+m"In my room... Forever"
+show alice sad
+ali"Really?"
+m"..."
+
+ali"I'm going to die soon... I don't have much time left..."
+ali"And you have more... But even then"
+ali"Your time is limited"
+ali"Don't you feel like it's a waste? Of youth? Of life?"
+ali"I think you're just scared"
+ali"Me too..."
+ali"But can you honestly tell me that you /want/ things to carry on like they are?"
+
+m"..."
+ali"So... let's get you some cute clothes!"
+m"That's where you were going with this?!?!?"
+
+#cut to the mall later, with mc wearing a slightly oversized pastel pink hoodie
+show mc pink embaressed
+m"..."
+show alice smug
+m"..."
+show mc pink embaressed desperate
+m"EVERYONE'S LOOKING AT ME"
+ali"So? Let them."
+
+m"easy for you to say"
+ali"What was that?"
+m"Easy for you to say when you could make rags work!!"
+ali"You really think so?"
+m"That's not my point! I just mean like..."
+m"I'm not like you. It's better for everyone else that I just stay out of sight"
+ali"Stop saying stupid shit. If I hear one more thing from you I'll take that as a personal insult"
+m"Huh? Why what does what I say about myself have to do with you?"
+ali"I picked out those clothes, and my sense is absolute"
+ali"So shut the fuck up and enjoy the attention"
+m"..."
+m"I-"
+ali"What did I just say?!"
+m"Sorry..."
+show alice laughing
+ali"You really are cute"
+show mc embarresed
+show alice neutral
+ali"It's just a waste you wouldn't try on the good stuff"
+ali"I picked you out the cutest thigh-highs and everything"
+ali"I know you liked the little cat paw prints on the sole"
+m"I bought this, can't you just leave it?!"
+ali"Stop acting like you don't like that top, I saw how you were looking at it"
+m"..."
+ali"It's just a shame you want to hide away under all that fabric"
+ali"Wouldn't hurt you to show us some skin"
+show mc embarresed tears
+ali"But I guess Rome wasn't built in a day, and that suits you pretty good as is."
+
+ali"Anyways, it's still pretty early, where do you wanna go?"
+#I think this scene needs a good deal more internal conflict maybe?
+
+
 #Sees someone busking/band poster or something, she gets interested in music
 #"oh yeah i've heard my neighbour play guitar before... I wonder if... nevermind..."
 #her eyes light up and she begs for you to go speak to him
