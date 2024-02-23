@@ -4,6 +4,13 @@
 #na is unknown speaker
 #[make character beeps dif for Alice and Button]
 
+
+THIS DAY NEEDS MAJOR TWEAKS
+-Alice = valley girl not ojousama
+-Make it clear that alice's trauma is the expectation that she's sexually desireable
+-make the conflict make sense and natural
+-Make the resolution make sense, but leave them as like acquaintances, not friends
+
 label: ad1Morning
     stop music fadeout(2)
     show black with fade
@@ -138,7 +145,7 @@ label: ad1Morning
         
         "You notice a faint sweet, and somewhat earthy scent"
         "Somewhere between the smell of coffee, vanilla, cinnamon and moss"
-        "You have suspended in place for what feels like several minutes"
+        "You have been suspended in place for what feels like several minutes"
         "Each passing moment, the scent seeps further into your body"
         "Your mind begins to melt inside your head"
         "It feels warm and fuzzy, almost like a pleasant numbness spreading from to core of your conciousness"
@@ -353,7 +360,9 @@ label: ad1Morning
         #the only times he goes outside is to buy a new cardboard box of instant ramen
         #salt contents are bad :c
 
-        #choice where to check -> go somewhere stupid then bad end
+        #Choice: Look on roof, look in cafeteria, Forget about her
+
+        label: checkRoof
         "You turn toward the staircase leading to the roof."
         "There's a small chain barring access, but you easily step over it"
        

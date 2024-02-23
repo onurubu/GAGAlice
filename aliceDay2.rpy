@@ -8,7 +8,6 @@ label:day2Morning
 #If you can replace narration with dialogue, go back and do it! 
 
 
-
 #wake up
 #she waters herself
 
@@ -37,11 +36,15 @@ show alice disappointed
 ali"You're such a waste of space"
 ali"I'm honestly impressed you had time to remember to water me between sleeping the day away and listening to people on youtube tell you what cartoons are worth watching"
 
+m"How do you know what youtube is?"
+#Elongate
+#Or just change it to say videos?
+
 m"...I was also... writing stories..."
 show alice laugh
 ali"You didn't even TRY to deny it"
 show mc humilated
-ali"I bet you didn't even finish a single one of them"
+ali"I bet you didn't even finish a single chapter"
 m"..."
 show alice laugh cruel
 ali"See?"
@@ -97,7 +100,7 @@ ali"Why would you stay inside all day when there's such vibrant places like this
 show mc nervous 
 m"Well... It's loud and there's lot's of people..."
 ali"Hmm? For such a stupid reason? I don't get that"
-ali"Anyway, no that your here, let's try and find some stuff to gaslight people into thinking you're not a loser"
+ali"Anyway, now that we're here, let's try and find some stuff to gaslight people into thinking you're not a loser"
 m"How do you not what gaslighting is?"
 ali"Does anyone REALLY know what it is?"
 m"Yes?"
@@ -105,8 +108,12 @@ m"Yes?"
 ali"Whatever, what about that place over there?"
 m"You mean the men's attire store?"
 m"Do you think I look like I have the money for a suit and tie?"
-ali"Yeah, and even if you did, it's not like it would suit you anyway"
+ali"Yeah, and even if you did, it's not like it would /suit/ you anyway"
+m"Hehe-"
+"You almost give in and laugh at her joke"
+"A joke at your expense"
 "You know she's right"
+
 ali"So how about you give me something to work with?"
 ali"Makes it easier to at least know what we are going for"
 m"I guess I like grey-scale stuff that's not too flashy"
@@ -133,8 +140,8 @@ m"There's no way you actually mean that..."
 m"Besides, I already can't deal with people..."
 m"How am I supposed to handle them if they stare at me"
 m"I just want to fade into the background"
-m"In my room... Forever"
-show alice sad
+"In your room... Forever"
+show alice neutral
 ali"Really?"
 m"..."
 
@@ -147,21 +154,32 @@ ali"Me too..."
 ali"But can you honestly tell me that you /want/ things to carry on like they are?"
 
 m"..."
+show alice laugh cruel
 ali"So... let's get you some cute clothes!"
 m"That's where you were going with this?!?!?"
+ali"So that's a no then?"
+#choice: "We can take a look I guess", "Not in a million years, now way"
 
+label: mallPastel
+trust ++;
 #cut to the mall later, with mc wearing a slightly oversized pastel pink hoodie
 show mc pink embaressed
 m"..."
 show alice smug
 m"..."
 show mc pink embaressed desperate
+#make sure it's not obvious that they are trans, make it like they are a guy who's ashamed of having a feminine side
+#because of it bringing more attention to him and that going against the status quo
+#she acutally thinks it suits him, and is trying to help him give less of a fuck
+# but is also teasing him by picking on the obvious discomfort he feels about this 
+
 m"EVERYONE'S LOOKING AT ME"
 ali"So? Let them."
 
 m"easy for you to say"
 ali"What was that?"
 m"Easy for you to say when you could make rags work!!"
+show alice happy
 ali"You really think so?"
 m"That's not my point! I just mean like..."
 m"I'm not like you. It's better for everyone else that I just stay out of sight"
@@ -176,21 +194,107 @@ m"Sorry..."
 show alice laughing
 ali"You really are cute"
 show mc embarresed
-show alice neutral
+
+"You don't really know how to feel..."
+"You can't help but feel scared"
+"Scared of judgement"
+"Memories of the kids you went to elementary school with flash into your mind's eye"
+"Of little comments your parents made"
+"When you stepped out of line"
+"Not for being rude, or malicious"
+"But for being curious"
+"..."
+"You like cute anime"
+"You like playing games where you talk to little animals people, and go fishing"
+"You know you like this hoodie"
+"But is it really okay?"
+"For someone like me to wear it?"
+"Up until now, it's always been participating in this stuff as an observer"
+"Out of sight"
+
+show alice disappointed
 ali"It's just a waste you wouldn't try on the good stuff"
+show alice laugh
 ali"I picked you out the cutest thigh-highs and everything"
-ali"I know you liked the little cat paw prints on the sole"
-m"I bought this, can't you just leave it?!"
-ali"Stop acting like you don't like that top, I saw how you were looking at it"
+ali"The little cat paw prints on the sole were adorable"
+m"I gave bought this, can't you just leave it?!"
+
+show alice neutral
+ali"Jokes aside, I think that it really suits you and I can tell you like it too"
 m"..."
 ali"It's just a shame you want to hide away under all that fabric"
 ali"Wouldn't hurt you to show us some skin"
 show mc embarresed tears
-ali"But I guess Rome wasn't built in a day, and that suits you pretty good as is."
+ali"But I guess  wasn't built in a day, and that suits you pretty good as is."
 
-ali"Anyways, it's still pretty early, where do you wanna go?"
-#I think this scene needs a good deal more internal conflict maybe?
+ali"Anyways, it's still pretty early and we are here already so let's go somewhere else."
+m"Like where?"
+ali"Hmmm... I don't know..."
+m"Do you have any hobbies or whatever?"
+ali"Oh yeah, I /love/ to crochet on the weekends after finishing at the office~"
+ali"I'm a mushroom that was born literally a day ago, why the fuck would I have hobbies?"
+m"...sorry..."
+ali"Whatever... So, where are we going"
+"You've haven't been to the mall since you were in elementary school"
+"Let alone with a girl"
+"Where would she want to go?"
 
+#Choice for 3 places: Need to visit them all
+
+#cafe 
+#perfume store
+#Argula??? contrast of expectations
+#kids store, plushies
+# resturant/ food area - chefs
+#arts and craft store
+#sports? bowling?
+#THIS ONE -> arcade
+#book store
+
+label: arcadeDate
+m"I think I saw a sign for an arcade back there"
+ali"An arcade?"
+m"We could go and I could maybe try show you how to play some video games"
+ali"Are you for real right now?"
+m"You want to find stuff you're interested in right?"
+m"How do you know you don't like it if you don't give it a go?"
+ali"..."
+show alice mendokusai
+ali"...FINE~"
+#black scene
+
+
+#Change this so alice has an appropriate amount of knowledge about this stuff
+m"Woah, look at this place! They have so many retro titles"
+ali"Isn't that like a nice way of saying they're charging 25 cents for games that have been out of date for like 30 years"
+ali"Can't you play these on your computer anyway?"
+m"I guess I could set up a MAME emulator on RetroArch, but-"
+
+ali"Are you listening to yourself right now?"
+ali"I have no fucking clue what you're talking about"
+
+m"I just meant like, we could use my pc..."
+m"but then we're really comprimising on the authenticity of the experience"
+ali"The experience of being in a run down shit hole?"
+
+m"...Anyway..."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#After you're done, you walk past a music store, filled with band posters
 
 #Sees someone busking/band poster or something, she gets interested in music
 #"oh yeah i've heard my neighbour play guitar before... I wonder if... nevermind..."
