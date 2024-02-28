@@ -8,7 +8,7 @@ label chooseFly:
     show finn sad
     "... I guess"
     "*click click*"
-    m"That was easy to order, it even takes PaePal..."
+    m"That was easy to order, it even takes PayPal..."
     m"Fly amanita... That's like a toadstool right?"
     show finn happy
     m"Maybe this mushroom will make me grow double my size, and break bricks with my bare-hands"

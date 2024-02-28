@@ -20,25 +20,33 @@ label: ad1Morning
     #keep original script up to "{size=-8}"
     
     #TODO: add normal morning thing here
-    "Everyday you dilligently watered your mushroom"
-    #You wake up and get ready to make morning coffee etc
-    "Then suddenly you hear a rustling sound from the corner of your room"
+
+
+    "Everyday, you woke up, made cheap instant coffee, and sprayed the mycelium"
+    "Today was no exception"
+    "You wake up..."
+    "Watch Youtube Shorts until your phone dies..."
+    "And raise your heavy body out of bed."
+    "You prepare your cheap instant coffee, turn back towards your bed, and place your coffee on the bed side table."
+    "You shift your attention toward your proto-roommate"
+    #fix 
+    "Suddenly you hear a rustling sound from the corner of your room"
     #Siloutte animation of her breaking out by herself
     show mc shocked at right with move
     show alice tsun at left 
     #First line is super important so come back later
     #Make it more impactful, pretending to be something you're not
-    na"So this is your room? Smaller than I hoped for but I suppose this will work."
+    na"So this is your room? Smaller than I hoped for but I guess this will work."
     m"..."
     m"WHAT THE FUCK?!?!"
     na"..."
-    "She unapologetically grabs the spray bottle on the table beside her"
-    "She pulls the trigger swiftly and a cloud of mist appears in front of her"
+    "The girl that emerged from your mushroom box unapologetically grabs the spray bottle on the table beside her"
+    "She pulls the trigger and a cloud of mist appears in front of her"
     "She steps slowly through it and towards me"
     
     #staring down at you cruelly
     show alice tsun annoyed
-    na"What a warm welcome... You really have a way with words."
+    na"Warm fucking welcome... You /really/ have a way with words."
 
     #gets reflexively small and subby
     show mc sad
@@ -48,22 +56,38 @@ label: ad1Morning
     m"WAIT A SEC! WHO-... or...what?... THE HELL ARE YOU?!"
     show alice sad
     #I think the word she chooses to use here to address him such as client, parent, guardian, is really important! come back here later
-    na"How pitiful... I would have hoped that my client would be able to perform basic congnitive tasks"
-    na"But I suppose the surreal allure of my visage is beyond your comprehension"
+    na"That's tragic... I hoped my client would be like mentally all there or whatever"
+    #make this line more PC
+    na"But I guess I just have that effect on people."    
+
+    #na"How pitiful... I would have hoped that my client would be able to perform basic congnitive tasks"
+    #na"But I suppose the surreal allure of my visage is beyond your comprehension"
     show alice despair
-    na"Truely pitiful..."
+    na"Actually tragic..."
     m"You're... the mushroom I bought?"
-    na"It seems you have something resmebling sentience... Well Done."
+    na"So you aren't brain damaged?"
+    #This is actually good foreshadowing for her toxicity
+
+    #na"It seems you have something resmebling sentience... Well Done."
     show mc angry
     m"THAT'S MY LINE!!!"
     m"YOU'RE TALKING!"
     show alice neutral
     na"..."
-    na"Seeing as your brain is functioning to _some_ degree, perhaps you could tell me your name?"
+    #na"Seeing as your brain is functioning to _some_ degree, perhaps you could tell me your name?"
+    na"Well since your brain is functioning to _some_ level, maybe you could tell me what to call you?"
     show mc awed
     m"Ummm... My name..."
     show alice sad
-    na"Forgive me, I should have chosen a less challenging display of intelligence."
+    na"My bad, I should have picked something easier for you right?"
+    #The scene is like: She thinks that maybe you've been poisoned by her already, but she's phrasing it so it's like
+    #her look sare the reason why you are cognitively impared
+    #She's kind of making fun of you
+    #But mc is just nervous
+    #Don't actually know if I like this convo, maybe rewrite
+    
+    
+    #na"Forgive me, I should have chosen a less challenging display of intelligence."
     show mc angry
     m"NO!!!"
     show mc sad
@@ -103,32 +127,35 @@ label: ad1Morning
             show alice meanLaugh
             na"Just wanted to make sure..."
         show alice smug
-        na"What an adorable name... I suppose it suits someone like you."
+        na"What an cute name... I guess it suits someone like you."
         m"What's that supposed to mean?!"
         show alice meanLaugh
-        na"What ever you want for it to mean."
+        na"What ever you want."
         "...'
         stop music
         
         #Mc tries to get answers from her, while she subtlely tries to get closer to him
         #show that mac is still panicing
         #she brushes off your questions, while implying you should be paying more attention to her.
-        #"Maybe mc tries to ask her name but she blows him off."
+        #Maybe mc tries to ask her name but she blows him off.
 
 
         m"So... Getting back on topic... I thought I was supposed to be growing a mushroom?"
-        na"Well, I suppose you were able to succeed in {i}something{/i} at least."
+        na"Well, I guess you were able to succeed in {i}something{/i} at least."
         m"So... You're a mushroom then? Not like a scary alien that's going to lay eggs in my stomach or something?"
         na"What are you talking about?"
         "I didn't think that mushrooms were supposed to talk... or... be animate..."
-        na"You really seem to enjoy asking meaningless questions."
-        na"Why don't you stop thinking about hard stuff, and relax a little bit?"
+        na"You seem to REALLY like asking about stupid shit"
+        #na"You really seem to enjoy asking meaningless questions."
+        na"How about you stop thinking so hard, and we get more comfortable?"
+        #na"Why don't you stop thinking about hard stuff, and relax a little bit?"
         "She lowers herself down onto the corner of the bed and leans back slightly, crossing one leg ontop of the other.'        
         "She protudes the aura of a queen sitting on a throne."
+        
         #here she tries to get you to stop asking questions, and come over to her
-
-
         #instead of these lines I think it should be more like she's getting fed up with her advances not working.
+
+
         na"..."
         na"So, anyway... Should we start?"
         m"Ummm... Start...what?"
