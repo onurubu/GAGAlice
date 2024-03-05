@@ -282,20 +282,34 @@ m"I just meant like, we could use my pc..."
 m"but then we're really comprimising on the authenticity of the experience"
 ali"The experience of being in a run down shit hole?"
 
-m"...Anyway..."
+m"Woah! They have that weird train game?"
+m"It's a weird Japan-only game where you play as a train conductor and like, there's train levers, and-"
+ali"You're really making this whole gaming thing so SO cool"
 
+m"Well there's a whole bunch of other games too"
+m"What kind of thing do you think you might like?"
 
+ali"I don't know... What about that one over there?"
+ali"Those little dinosaur things are kinda cute~"
 
+m"Oh bubble bobble?"
+m"I haven't played that game since I was a kid"
+m"Lemme get some tokens..."
 
+#interlude
 
-
-
-
-
-
-
-
-
+"You show Alice how to move, blow bubbles, and capture monsters"
+"She quickly grasps the basics and is able to beat the first level without any issues"
+"However, after only a few levels, the difficulty begins to increase dramamtically, and before more than a few minutes have passed..."
+ali"Game Over? What the fuck is this shit?"
+m"In these kind of games you only get a few lives, and if you use them all up, you need to pay more to keep playing"
+m"Do you want to keep playing this?"
+ali"What's the point? What do I get if I keep playing"
+m"Well... The satisfaction of having gotten further, and accomplishing something that not many people have done?"
+ali"That's fucking stupid"
+#if oonly real life had 1ups
+#waste of time and money
+#different games but not enough time to find one that actually speaks to me
 
 
 
