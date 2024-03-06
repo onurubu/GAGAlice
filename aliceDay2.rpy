@@ -256,6 +256,8 @@ ali"Whatever... So, where are we going"
 #THIS ONE -> arcade
 #book store
 
+#Player can only pick 2 of them, the 2nd one gets some special dialogue to connect it better to first one
+
 label: arcadeDate
 m"I think I saw a sign for an arcade back there"
 ali"An arcade?"
@@ -307,11 +309,72 @@ m"Do you want to keep playing this?"
 ali"What's the point? What do I get if I keep playing"
 m"Well... The satisfaction of having gotten further, and accomplishing something that not many people have done?"
 ali"That's fucking stupid"
-#if oonly real life had 1ups
-#waste of time and money
-#different games but not enough time to find one that actually speaks to me
+ali"Who cares if you are the best in the world at playing stupid children's games"
+m"..."
+m"It's not stupid to me..."
+m"...or lots of other people"
+
+m"These games represent memories of our childhoods"
+m"Friendships"
+m"Although looking around here, you might not get it but"
+m"There are all sorts of games"
+m"Games about guns, games about fishing, games about defusing bombs"
+m"Games about just talking to people"
+m"Games that give you a new outlook to look at the world..."
+ali"..."
+m"Games to play by yourself, games to pass the controller back and forth"
+m"Games that let you meet new people"
+m"I think that for me, it helps to feel connected to something bigger"
+m"The community of people brought together by having this small thing in common"
+
+m"I just thought it would be cool if you would be able to find something like that too"
+ali"..."
+ali"I guess..."
+ali"I'm sorry okay?"
+ali"I shouldn't have called it stupid"
+ali"But even so, I don't really think this is for me"
+ali"Maybe if I had more time to find one that speaks to me"
+
+ali"But right now, I want to find something else"
+show mc sad
+m"..."
+m"Okay... let's try find something else"
+m"Sure"
+m"How about..."
+#obv need different dialogue path if it's not the first option
+#Choice
+#
+label: cafeDate
+"You walk past a small cafe, that looks relatively empty, despite how busy the rest of the mall is"
+"The tile floor and decor look clean and without wear"
+"This place is probably new"
+#the place probably won't last long
+
+#What kind of staff work here?
+#Family buisness with a child as a waiter. and the owner is the chef
+"You walk inside and are greeted by 
 
 
+#alice takes over interacting with the waitor when you can see that she's uncomfortable
+##########################
+
+
+
+
+
+
+
+
+
+
+#if you went to the arcade: she mentions
+ali"I was just thinking about back when we played that dinosaur game"
+ali"What about... us in the real world"
+ali"When we die there's no like... 1up or whatever right?"
+ali"Or if we put in coins or something, we can keep going"
+m"..."
+#I like this but i don't really know if this adds to rhe route unless we can use it to show
+#How she feels about death and contrast that to button
 
 #After you're done, you walk past a music store, filled with band posters
 
