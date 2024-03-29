@@ -113,6 +113,7 @@ m"Yes?"
 #Make it a choice of "Where you see her looking"
 #And make it requirement for true end
 
+
 ali"Whatever, what about that place over there?"
 m"You mean the men's attire store?"
 m"Do you think I look like I have the money for a suit and tie?"
@@ -245,25 +246,23 @@ ali"Oh yeah, I /love/ to crochet on the weekends after finishing at the office~"
 ali"I'm a mushroom that was born literally a day ago, why the fuck would I have hobbies?"
 m"...sorry..."
 ali"Whatever... So, where are we going"
+
+#Maybe add a bit here about being thirsty so the cafe is a neccessary event
 "You've haven't been to the mall since you were in elementary school"
 "Let alone with a girl"
 "Where would she want to go?"
 
-#Choice for 3 places: Need to visit them all
+label:aliceDay2DateLocation
+choice: [Quickly get this over with, Show her something you like]
+>Show her something you like
+   if(trust)>x:
+      jump arcadeDate
+   
+   "You think about taking her to somewhere you would want to go"
+   "But then you look over at her, and see her impatiently tapping her foot"
+   "You don't want to drag this out any longer than it needs to be"
 
-#cafe 
-#perfume store
-#Argan??? contrast of expectations
-#kids store, plushies
-# resturant/ food area - chefs
-#arts and craft store
-#sports? bowling?
-#THIS ONE -> arcade
-#book store
-
-#Player can only pick 2 of them, the 2nd one gets some special dialogue to connect it better to first one
-#Maybe make coffee compulsory and arcade a special choice you get if she already has a decent amount of trust in you.
-
+   jump: aliceDay2DateLocation
 
 label: arcadeDate
 m"I think I saw a sign for an arcade back there"
@@ -359,7 +358,7 @@ label: cafeDate
 "This place is probably new"
 mc"Do you want to go inside and get something to drink?"
 ali"... As long as I have my water spray, I'm fine. I don't really get that whole animal thing of 'eating' in order to sustain yourself."
-mc"Well, there are plenty of reason to eat and drink stuff, even if it's not purely for sustanance."
+mc"Well, there are plenty of reasons to eat and drink stuff, even if it's not purely for sustanance."
 mc"Lots of people eat and drink stuff purely for enjoyment."
 mc"Going out for food is something a lot of people do as a way of seeing new places, and experiencing new things with people"
 mc"Making memories, that sort of stuff"
@@ -373,9 +372,8 @@ ali"I don't get it... But like, whatever, if you're so adamant about this whole 
 #screen transition
 
 "A young waitor is sitting at a desk by the storefront, flicking a pencil around notebook propped up at the corner of the desk at an angle"
-"He looks up notices us, and turns his gaze back to the paper, continuing as he was for a few more seconds before slowly getting up out of his seat"
+"He looks up, notices us, and turns his gaze back to the paper, continuing as he was for a few more seconds before slowly getting up out of his seat"
 
-walks towards us as we enter the store"
 na"Welcome, can I get you guys a table?"
 mc"..."
 ali"..."
@@ -390,7 +388,7 @@ ali"But even /I/ know that's how this works"
 
 screen transition
 
-"You are escorted to a large table, with 4 legged chairs on one side, and couch seat built against the wall on the other."
+"You are escorted to a large table, with 2 chairs on one side, and couch seat built against the wall on the other."
 "Alice swiftly slips onto the couch chair, without saying anything"
 #She picked the more comfortable choice without second thought
 
@@ -413,7 +411,7 @@ na"Are you guys ready to order?"
 #maybe try do like tumblr cry text where it's like "I sorRi; I jsut cant't' doo it"
 
 mc"ummm... Uhh, just one... sec; pleaSe"
-mc"We've got to decide, look at the menu"
+mc"Alice, We've got to decide! Have a look at the menu"
 
 screen transition
 
@@ -421,7 +419,7 @@ screen transition
 ali"What the hell am I going to do with a toasted cheese sandwich?"
 mc"Come on, please just pretend to TRY to enjoy yourself"
 ali"OMG I'm am so excited to order 2 pieces of bread, with fermented cow mammary extract melted between! I'm actually quivering in ancipation to put it in my mouth, digest it and then wait for 8 hours, and then-"
-mc"Please! Just... like... Come on, how about this? This is kind of cool? Right?"
+mc"Please! Just... like... Come on, how about this? This one looks kind of cool? Right?"
 ali"Latte art? Like a drawing of coffee? And you eat the paper?"
 mc"No, they ummm... Make like an image ontop of the coffee by pouring the coffee into the foamed milk so it makes a picture"
 ali"You guys really love drinking stuff from cow boob's huh? Is it like a sex-thing or..."
@@ -436,7 +434,7 @@ ali"THE POINT IS! Why would you make something that's just going to get destroye
 
 #Kind of a metaphor for life, especially with it being as short as it is
 
-mc"Okay so if it's so stupid, then what are you going to order then"
+mc"Okay so if it's so stupid, then what ARE you going to order then"
 ali"..."
 ali"Fine, you've peaked my interest, let's see what this is about"
 
@@ -452,7 +450,7 @@ scene trans
 
 na"Sorry to keep you waiting!"
 "Barely 5 minutes had past since the order was placed, the waiter arrives back balancing a tray in one hand"
-"He carefully places the tray down onto the table and without missing a beat, begins to explain the items 
+"He carefully places the tray down onto the table and without missing a beat, begins to explain the items" 
 na"Over here for you I thought you might like something cute and uplifting to freshen up the bags under your eyes"
 "He places a coffee cup in front of you with a detailed illustration of a small rabbit running through a flower garden"
 na"And for you, I thought you might like this [...]"
@@ -462,12 +460,13 @@ ali"Huh... wow... You made this for me? Even though I'm going to drink this in f
 na"Well, this is my dad's place. It's not doing too well, so he's making me help out"
 na"Not really how I want to spend my time out of class, but I don't have a choice"
 na"I'm studying to become an artist, and well... This is the only part of my job that I get do something worth while"
-ali"I see... I still don't get the whole like, spending so much effort on something I'm going to destroy 2 seconds later"
+ali"I see... I still doesn't explain the whole like, spending so much effort on something I'm going to destroy 2 seconds later"
 na"It's sort of a shame, but like... All art has an expiry date. Whether it's the pigment in oil paintings decaying, pencil fading, or art galleries going up in flames"
 na"Even cave paintings from thousands of years ago are going to be destroyed eventually"
 na"Nothing lasts forever, and well..."
-na"I like trying to make observations about what kind of people order from here, and try to make something specially for them"
-na"Art is like... How do I say it... Taking something abstract like, a thought, or a feeling... Sometimes just a funny vibe, or sometimes something that can change someones life"
+na"I like trying to make observations about what kind of people order from here, and try to make something just for them"
+na"Art is like... How do I say it... Taking something abstract like, a thought, or a feeling... Sometimes just a funny vibe, or sometimes something really important"
+na"The kind of stuff that inspires revolutions or changes lives"
 na"It's a way of taking that message and trying your hardest to get someone else to feel the same way as you"
 na"When words can't"
 na"So I guess it's like... It doesn't matter if my art lasts a second or thousand years, as long as I can try to share that feeling with someone" 
@@ -480,13 +479,13 @@ ali"Bleghhh... What the fuck is this? It's like... creamed dirt water..."
 ali"Ah!... But wait that after taste... This tastes kind of like my mycelium"
 mc"Yeah, well I threw in a couple of coffee grounds into where you were growing, since I read online it's good for mushroom growth"
 ali"I see..."
-"She drinks her coffee slowly"
+"She reluctantly takes a second taste of her coffee"
 "Occasionally looking deeply into the depths of cup"
 "Maybe you should say something to her:"
 #Choice: [Did you enjoy that?,  About how much you know about the world, Stay quiet]
 lable: aboutCoffee
-mc"How was your coffee?"
-ali"Hmm... It was okay... I think maybe I understand why people go out to eat a bit better"
+mc"How's your coffee?"
+ali"Hmm... It's okay... I think maybe I understand why people go out to eat a bit better"
 "You sense that she wants to say something else"
 mc"Yeah, and why's that"
 ali"I guess... I just have some stuff to think about... About me... About... You know..."
@@ -516,6 +515,7 @@ ali"Yeah... Just like... In that game right, if you fuck up and get yourself kil
 mc"Yeah, but like, I wouldn't reccomend that strategy tbh"
 ali"Sure, but like..."
 ali"We don't get anything like that do we?"
+ali"In real life"
 mc"..."
 ali"There's no amount of power or money, no one is important enough to get around the game over screen"
 ali"And even if you beat the game, it's over..."
@@ -526,12 +526,12 @@ ali"At first, I just followed my instincts and tried to get you to pay attention
 ali"Not because you were special, or because I liked you, even even knew you"
 ali"But because that's what I felt would make me feel like I am worth something"
 ali"I don't know it's... stupid... Sorry, I just..."
-ali"You maybe yesterday what you said... and what the cow boob artist said..." 
+ali"Maybe what you said last night... and what the cow boob artist said..." 
 ali"Maybe there is something more to life than just using others to prove to yourself you're worth something"
 ali"So I wanted to say that..."
 mc"..."
 ali"Yesterday I didn't need to shout like that or whatever"
-mc"...wow... I uh... that's nice"
+mc"...wow... I uh... that's nice?"
 ali"What?!"
 mc"No! I mean, sorry that was just sudden so I don't really know what to say"
 ali"Agghh, I shouldn't have said anything to you."
