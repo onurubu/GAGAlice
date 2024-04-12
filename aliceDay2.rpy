@@ -505,7 +505,7 @@ ali"Yeah..."
 jump leaveCafe
 
 
-#fork if you went to arcade first
+#fork if you went to arcade first and max trust
 label: coffeeTalkArcade
 ali"You know..."
 ali"I was just thinking back to that dinosaur game in the arcade"
@@ -553,16 +553,106 @@ ali"..."
 ali"Thank you for taking me here"
 trust++
 
+show mc surprisedi
 
-show mc surprised
+mc"Ummm... Yeah, That's okay..."
+ali"..."
+ali"You look suprised"
+mc"Yeah I uh... Didn't really expect you to say that"
+ali"Me either"
+ali"But I think that I'm starting to change"
+ali"I don't know what it is but"
+ali"I just feel like when I was born, I had a very certain idea of how this life was supposed to go"
+ali"You were going to be all over me, and I was going to feel good about that"
+ali"Because that was proof that I succeeded in my purpose"
+ali"But you were too much of a little bitch to do anything and made me cry"
+mc"I'm sorry, you know that I didn't mean it like that, I'm just-"
+show alice smile
 
-#How do you transition this back to the normal scene?
+ali"I know, don't worry about it"
+ali"It's just at the time that was kinda a shock you know..."
+ali"Like I had just been told that I'm not cut out for my purpose"
+ali"I'm just too ugly, too annoying, too whatever"
+ali"And that's not a great feeling"
+ali"And for a while, I didn't really know what to do with myself"
+ali"And being with you..."
+ali"Was painful..."
+ali"Do you know what it's like to be with someone you want to like you?"
+ali"How painful it is to know that the reason they didn't like you isn't something you did"
+ali"But just like... The way you are"
+ali"And so I guess that's where I was for a while"
 
+ali"And now I... I don't know"
+ali"I feel like, maybe I can find something else worth living for"
+ali"Even if it's only for another day"
+ali"And I wouldn't have that without you"
 
-#Maybe a choice here as to if to press her about the genetic engineering mushroom knowledge thing or not"
-#mc can ask about how alice does know some stuff, and get more info about the world setting and how they are genetically engineered to have certain knowledge
+mc"I didn't do anything special."
+mc"I just said whatever words popped into my mind"
+mc"Anyone could do that"
 
- scene transition
+ali"Yeah, but you did"
+mc"..."
+mc"Whatever"
+
+ali"So while we are talking like this... I was curious if there was anything you wanted to know about me"
+mc"Like what kind of thing"
+ali"I dunno? Like you know... My 3 sizes, the color of my underwear. You know, normal stuff"
+mc"Who taught you what normal is?!"
+
+show alice serious
+ali"I guess I was just born knowing all kinds of stuff"
+ali"Like ways to make people feel good, how to tie people up, that sort of stuff"
+mc"WHY IS IT ALL SEX?!?!"
+
+ali"Hmmm... Now that you mention it, a lot of it is related to sex"
+mc"?"
+ali"Like, I have some other information that I was just born knowing"
+ali"Like uhhh.... I know a bit about mushrooms, and like... I guess some of the stuff is more abstract"
+ali"Like when I was born I just KNEW that if I behaved a certain way, that you would like it"
+ali"But it didn't go the way I assumed it would"
+mc"So you mean like... You had like... Instincts about specific information? Like genetic memories?"
+ali"I don't know what the fuck you're talking about but uh, yeah sure, why not"
+mc"What I mean is, that you like woke up and knew how to speak perfect English, and all of that other stuff"
+mc"I didn't really think about it too hard after the shock of ummm... You like... Being alive and everything"
+ali"What you'd rather I was dead?"
+mc"No I- Actually no, I'm not gunna take the bait this time"
+ali"Awww, but it worked before"
+mc"I was just trying to say that there needs to be a reason you know all of this stuff?"
+ali"Yeah well... Didn't you like buy me off of the internet from some sketchy darkweb site or something"
+mc"IT WASN'T THE DARKWEB"
+mc"But yeah, I guess I wouldn't put it past that site to do something like that"
+mc"I guess everything you knew makes sense for the purpose of what you were being sold for"
+mc"So maybe they like, embedded that information into your DNA to streamline the user experience of ummm"
+ali"I'm right here you know"
+mc"Sorry, I phrased that sorta weird"
+ali"I think you might be onto something though..."
+ali"It is kind of weird that I know over 200 sex postions, but didn't know what a mall is huh?"
+mc"There are that many?!"
+ali"Way to reveal your power level wand master"
+mc"I just think it's really fucked up"
+mc"How they programmed you to be the ideal product for them to profit off of"
+ali"Yeah, I guess... But..."
+ali"Are you guys really all that different?"
+mc"Huh?"
+ali"I mean... Think about it right?"
+ali"If you look around at every one here, they were all raised by parents, who taught them what was right and wrong"
+ali"And then sent them to a school to learn stuff the government wants them to know for like a billion years"
+ali"If you're born with one set of bits, you get given toys to simulate child rearing"
+ali"And if you have the other, you're supposed to be like a firefighting astronaut football player or something"
+mc"What were you watching on my computer last night?"
+#Put in a bit in night of day 1 about her watching stuff on his computer because she's bored while he sleeps
+ali"ANYWAYS! You know what I mean right... It's easy for you to point at me and say I'm fucked up, but from where I'm sitting"
+ali"None of you guys seem that different"
+mc"..."
+ali"I guess I just wanted to know like... How do you know your values are you own?"
+ali"Like are you living for yourself? Or to feel like you're winning in some game you've been conditioned to think is important"
+#way too on the nose, rewrite to soften
+mc"I... I don't-"
+ali"Anyways, lets order some cake! After trying that coffee, I kind of want to see if the other stuff is any good"
+mc"Uhh... Yeah..."
+
+screen transition
 
 label: leaveCafe
 
