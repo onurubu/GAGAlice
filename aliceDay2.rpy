@@ -457,6 +457,9 @@ na"And for you, I thought you might like this [...]"
 #What does he see in her that inspires him to draw something that says something about her?
 ali"Huh... wow... You made this for me? Even though I'm going to drink this in front of you, and undo all of your effort... Why?"
 
+#maybe it would be cool if alice is like "drawing, that sounds easy", she's able to do it well mechanically, but the waiter points out that there's not message behind her art
+#that's the differnece between AI and people etc
+
 na"Well, this is my dad's place. It's not doing too well, so he's making me help out"
 na"Not really how I want to spend my time out of class, but I don't have a choice"
 na"I'm studying to become an artist, and well... This is the only part of my job that I get do something worth while"
@@ -594,7 +597,6 @@ mc"Anyone could do that"
 ali"Yeah, but you did"
 mc"..."
 mc"Whatever"
-
 ali"So while we are talking like this... I was curious if there was anything you wanted to know about me"
 mc"Like what kind of thing"
 ali"I dunno? Like you know... My 3 sizes, the color of my underwear. You know, normal stuff"
@@ -769,26 +771,10 @@ mc"It's okay"
 "She gets up and you keep starting walking again slowly"
 "The sun has almost completely set"
 
-##########################
-#After you're done, you walk past a music store, filled with band posters
-
-#Sees someone busking/band poster or something, she gets interested in music
-#"oh yeah i've heard my neighbour play guitar before... I wonder if... nevermind..."
-#her eyes light up and she begs for you to go speak to him
-#taken aback by her out of charcter childishness
-
-#i wanna give the impression of her pretentiousness is sort of her putting on airs, but she's really childish and innocent beneath that.
-
-#choice
-#you decide to try strike up a convo with him when you return back
-
-#she's beaming and being a lot friendlier to you on the way back
-#you listen to her ranting about what she's excited to try
 
 label:day2WayHome
-#on the way home you come across a butterfly, which ends up dropping dead after stopping on her finger
-#her mood comes to a stand still
-#she stops wanting to talk
+#Here is the original idea for the scene/ Feel like I didn't add everything I wanted to
+#--------->
 #choice whether to get her to open up adds a point to trust
 #if trust is high enough
 #she explains about her toxicity, and the danger she poses to those around her (people) in high doses
@@ -801,6 +787,99 @@ label:day2WayHome
     #but is it fine as long as she doesn't care about them? so she's scared of trusting someone, because her poison will hurt them
     #and push them away, so its easier she doesn't even try
     #or that she only uses them for sex, validation, then throws them away
+##########################
+"You walk with Alice through along the embankment until you reach the outskirts of the city center"
+"Its hussle and bussle has died down partly due to distance from the crowds, and partly due to the day turning to evening"
+"However..."
+ali"Hey do you hear something"
+mc"Hmm?"
+mc"..."
+mc"Yeah, I guess now that you mention it"
+show alices sprite zipping off screen
+mc"Huh? Hold on slow down!!"
+#transition to alley way
+ali"The sound is coming from down here"
+mc"*Huff* *huff*... Please... Don't... Run..."
+ali"What is this place"
+mc"This- *cough*"
+ali"Damn, you need to work on cardio"
+mc"This place looks like a live music venue"
+mc"If you go down those stairs, there's people listening to a band or something probably"
+ali"Hmmm..."
+mc"See, there's a poster for an event on here"
+#MAKE THE NAME OF THE EVENT SOMETHING FUNNY#
+ali"#name of the event#?"
+mc"Yeah, it's probably like a rock music thing from the vibes of the poster, and the little I can hear"
+ali"Rock music?"
+mc"Yeah it's like... I don't really get it, but I think it's a kind of music where people sing about like..."
+mc"Being really angry at your ex-girlfriend..."
+mc"Or like... Killing people? Or like... Maybe it's about dying yourself?"
+mc"I don't know... I feel like I have lots of conflicting ideas about it"
+mc"But either way, it's generally more intense music that deals with more heavy topics"
+ali"That sounds kinda interesting"
+ali"I feel like human's usually avoid interacting with the more ugly parts of being alive"
+ali"But it sounds like some people go out of their way to think about it"
+mc"Yeah. Some people like to escape from their problems, and others like to think about them all day"
+mc"I guess human's are weird"
+ali"I'm guessing that what you listen to is more in the 'escaping from life' catergory"
+mc"..."
+mc"I've heard a little bit of this sort of music"
+mc"Through my bedroom wall"
+ali"So your neighbour is into this sort of stuff"
+mc"Yeah, I think he plays guitar too from the sound of it. He's pretty good too"
+ali"So that means you have connections with an insider?"
+mc"What? I don't even know what he looks like. So talking to him is out of the question"
+ali"You've been living there for ages, and you don't even know what you neighbour looks like?"
+mc"Nope"
+ali"..."
+mc"..."
+show alice sly smile
+ali"..."
+mc"Oh no, what are you thinking"
+ali"Hey, I was just thinking about how much I wanna learn guitar"
+ali"And well"
+ali"You're my only option"
+mc"No way"
+show alice cry
+ali"*sob* How could you say that!"
+ali"To a cute innocent girl with only so many more hours left on the clock"
+mc"..."
+
+#Choice: Give in to her, No means no
+
+#Give in to her
+ali"*sob* Ignore the last wishes of a petite, dying, defenseless-"
+mc"Fuck you... Fine!"
+mc"I'll go ask"
+show alice excited
+ali"Really!?"
+mc"Wait, you're actually excited?"
+mc"I thought this was just a way to make me suffer"
+show alice fake sad
+ali"Why are you so mean to me"
+ali"Such an abuser"
+mc"Why do you have an interest in this all of a sudden though?"
+mc"Like I've spent the whole day showing you a bunch of stuff, and you didn't seem very excited about anything else"
+ali"I've been thinking about it the whole day"
+ali"At first I kinda of didn't understand why people care about stuff"
+ali"like drawings, or food or video games"
+ali"But thanks to everything you showed me, I think I started to get a better idea of why"
+ali"And then I was kind of hoping something would just leap out to me"
+ali"But I don't think life works like that"
+ali"I think instead of waiting for a lightning bolt to strike down and give like divine intervention"
+ali"You gotta just like"
+ali"Do whatever seems fun"
+ali"And I kinda can't keep waiting."
+ali"I don't have that sort of time"
+ali"So I'm gunna go with this"
+mc"..."
+show mc slightly sad
+#he's not sad here because of talking to neighbour, but because he's jealous about her attitude
+mc"I'll see what I can do"
+
+
+#maybe the scene with the butterfly should happen after this? swap the order
+
 
 
 #arrive back, decide to let alice into your room first
@@ -811,6 +890,9 @@ label:day2WayHome
 
 #how does mc deal with needing to concur the anxiety to knock.
 label:Day2Neighbour
+
+
+
 #neighbour comes to his door
 #you're taken back by his clothing
 #you can see inside his room is fulled with colorful posters, chokers, thighghighs, other stuff like that
