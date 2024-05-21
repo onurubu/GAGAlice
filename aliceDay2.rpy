@@ -21,10 +21,10 @@ show mc annoyed
 m"Don't you know what sleep is?"
 ali"Yeah, but you're only supposed to do that for 8 hours..."
 show alice disappointed
-ali"At night time." # might be better to say "... and at night"
+ali"... and at night" # might be better to say "... and at night" <- agreed, changed
 
 "You look over to your table, and pick up your phone"
-"It's dead. Not like anyone ever messages you anyway."
+"It's dead. Not like anyone ever messages you anyway." ## instead of focusing on him not getting messages, maybe focus on the fact that all he seems to do is waste time on those devices
 
 m"What time is it?"
 ali"Well you've been out for like... 12 hours"
@@ -38,7 +38,7 @@ ali"I'm honestly impressed you had time to remember to water me between sleeping
 
 m"How do you know what youtube is?"
 #Elongate
-#Or just change it to say videos?
+#Or just change it to say videos? <- nah its fine to mention youtube
 
 m"...I was also... writing stories..."
 show alice laugh
@@ -54,20 +54,22 @@ ali"See?"
 "She puts to words the things you think about yourself before the thought is even fully formed"
 # shes better at hating you than you ever could be. 
 # the one thing you were good at and you have been outclassed
-"It's like she sees right through you"
+"It's like she sees right through you" ## I like this part where the brain almost has a companion in making you feel bad, good idea
 m"..."
 "You turn your head down towards the messy duvet you're sitting on to avoid her gaze"
 #she says one more mean thing here,  insulting your aethstetic and clothes 
 #realizes that you're crying and is kinda shocked, then tries to make you feel better (softens up)
 ali"Ummm... If you want I could help you... you know?"
 ali"Look less like your mom picks out your clothes from the bargain bin"
-m"Is that supposed to be an apology?" #  "Is that supposed to be an make me feel better?"
-ali"Whatever, do you want my help or not?"
+m"Is that supposed to be an make me feel better?" #  "Is that supposed to be an make me feel better?" <- i agree this line is better so I inserted it
+ali"Whatever, do you want my help or not?" ## make her geuinely feeel a bit hesitant on continuing her usual method of interaction here. Any hesitancy will allow for the audience to not dislike her as much as they might want to
 
 #maybe need to explain that although she's only a day old, she has instinct for only few things:
 #Fashion/beauty, the need to be desired, knowledge on her species, as well as arts 
-#(although the company programming tries to make her forget about that part)
-#maybe try to develop that motif a bit about like, her needing to fight her programming
+#(although the company programming tries to make her forget about that part) <- I dont think that you need to make it so the programming is trying to suppress the interest in arts. I think you can make her BECOME interested in arts through her experiences being alive
+## For example, make her be fascinated at the concept of creating and being creative, and make that a natural progression for her rather than something she was born with
+## Also the programming can be trying to get her "back on track" with that path
+#maybe try to develop that motif a bit about like, her needing to fight her programming <- instead of needing, WANTING
 
 "You pause for a moment to think about the offer"
 "You would need to go outside"
@@ -78,13 +80,14 @@ show alice shocked
 ali"but... I..."
 ali"..."
 show alice angry tears
-ali"Fine, what ever, die alone virgin, see if I give a fuck"
+ali"Fine, what ever, die alone virgin, see if I give a fuck" ## I like her tsundere aspects being turned to 11 for comedy, very well done
 mc"No wait, it's fine! We can go! Wherever, Whatever you want"
+## Insert a brain line like "The pain of feeling that you are disappointing someone has always lead you into doing things you hated"
 show alice childlike joy
 ali"Really?"
 ali"..." # tsundere alice sprite
 ali"Hmph, fine, if you wanna go so bad, I guess I have no choice then"
-mc"{size-10} manipulateable"
+mc"{size-10} manipulateable" ## this makes mc more calculating than I might think we should go for? keep it for now and I will see in the final version whether it works or not
 ali"{size+10} Did you say something"
 mc"No! Let's just go"
 
@@ -107,7 +110,7 @@ ali"Anyway, now that we're here, let's try and find some stuff to gaslight peopl
 m"How do you know what gaslighting is?"
 ali"Does anyone REALLY know what it is?"
 m"Yes?"
-
+## I like the above joke but it can be worded a bit better. Can be edited later
 
 #Maybe move this scene to after the date scene
 #Make it a choice of "Where you see her looking"
@@ -116,7 +119,7 @@ m"Yes?"
 
 ali"Whatever, what about that place over there?"
 m"You mean the men's attire store?"
-m"Do you think I look like I have the money for a suit and tie?"
+m"Do I look like I have the money for a suit and tie?"
 ali"Even if you did, it's not like it would /suit/ you anyway"
 m"Hehe-"
 "You almost give in and laugh at her joke"
@@ -125,9 +128,9 @@ m"Hehe-"
 
 ali"So how about you give me something to work with?"
 ali"Makes it easier to at least know what we are going for"
-m"I guess I like grey-scale stuff that's not too flashy"
+m"I guess I like grey-scale stuff that's not too flashy" ## instead of grey-scale, maybe "calmer colours". He is wearing a blue hoodie so idk if grey-scale makes sense
 ali"So what we came all this way so that you can keep trying to blend in with the shadows?"
-ali"Come on, you must like at least some /real/ colors"
+ali"Come on, you must like at least some /real/ colors" ## Instead of "real colours" in response to my previous comment,maybe make her try to encourage him to wear something more exciting
 m"... I kinda... don't hate pastel stuff..."
 show alice laugh
 ali"Heeeh? That's unexpected. Didn't think you were the type for cute stuff like that"
@@ -158,7 +161,7 @@ m"..."
 ali"I'm going to die soon... I don't have much time left..."
 ali"And you have some more... But even then"
 ali"Your time is limited"
-ali"Don't you feel like it's a waste? Of youth? Of life?"
+ali"Don't you feel like it's a waste? Of youth? Of life?" ## does she know what youth is? maybe you can have a scene of MC explaining the concept to make her feel even stronger about how hes wasting himself
 ali"I think you're just scared"
 ali"Me too..."
 ali"But can you honestly tell me that you /want/ things to carry on like they are?"
@@ -185,7 +188,8 @@ show mc pink embaressed desperate
 # but is also teasing him by picking on the obvious discomfort he feels about this 
 
 m"EVERYONE'S LOOKING AT ME"
-ali"So? Let them."
+## I think stating that this may be an irrational reaction could be good, following line example
+ali"So? Let them." ## instead "Nobody has glanced for more than a second, they dont give a shit and neither should you"
 
 m"easy for you to say"
 ali"What was that?"
@@ -224,7 +228,7 @@ show mc embarresed
 "Out of sight"
 
 show alice disappointed
-ali"It's just a waste you wouldn't try on the good stuff"
+ali"It's just a waste that you refused to try on the good stuff"
 show alice laugh
 ali"I picked you out the cutest thigh-highs and everything"
 ali"The little cat paw prints on the sole were adorable"
@@ -236,7 +240,7 @@ m"..."
 ali"It's just a shame you want to hide away under all that fabric"
 ali"Wouldn't hurt you to show us some skin"
 show mc embarresed tears
-ali"But I guess fruiting bodies don't grow in a day, and that suits you pretty good as is."
+ali"But I guess fruiting bodies don't grow in a day, and that suits you pretty good as is." # nice mushroom ref
 
 ali"Anyways, it's still pretty early and we are here already so let's go somewhere else."
 m"Like where?"
@@ -268,12 +272,12 @@ label: arcadeDate
 m"I think I saw a sign for an arcade back there"
 ali"An arcade?"
 m"We could go and I could maybe try show you how to play some video games"
-ali"Are you for real right now?"
+ali"Are you for real right now?" ## maybe make it so she is not against video games INTRINSICALLY, but rather thinks they are bad because she thinks they are one of the reasons you are inside all the time and don't do anything else, so she is hesitant to try them herself
 m"You want to find stuff you're interested in right?"
 m"How do you know you don't like it if you don't give it a go?"
 ali"..."
 show alice mendokusai
-ali"...FINE~"
+ali"...FINE~" ## here you can make it so that shes actually curious about what VIDEO GAMES entail. Or even have MC mention that they usually have beautiful art and music
 #black scene
 
 
@@ -340,7 +344,7 @@ ali"I'm sorry okay?"
 ali"I shouldn't have called it stupid"
 ali"But even so, I don't really think this is for me"
 ali"Maybe if I had more time to find one that speaks to me"
-
+## I think this is good to show that once you indicate that the games have Artistic merit behind them, she gets more interested. 
 ali"But right now, I want to find something else"
 show mc sad
 m"..."
@@ -353,6 +357,7 @@ m"How about..."
 
 
 label: cafeDate
+## For this scene maybe make it Boba tea specifically? Since sabrina's route has a cafe in it and the Boba might be more interesting to explore with ALice
 "You walk past a small cafe, that looks relatively empty, despite how busy the rest of the mall is"
 "The tile floor and decor look clean and without wear"
 "This place is probably new"
@@ -382,8 +387,8 @@ na"...Ummm... Are you okay?"
 mc"yEahh, umm I... uhHh.... 2 please?"
 na"Sure, right this way."
 ali"God, I forgot you can't talk to anybody except for your stuffed animals"
-mc"I didn't think entering a store would mean talking to someone."
-ali"I'm a mushroom with no knowledge of the world except for the small amount of info I was biologically programmed to know"
+mc"I forgot that entering a cafe usually means talking to someone."
+ali"I'm a mushroom with no knowledge of the world except for the small amount of info I was biologically programmed to know" ## maybe a bit too on the nose, but leave it for now and we will see how it flows in the final
 ali"But even /I/ know that's how this works"
 
 screen transition
@@ -424,7 +429,7 @@ ali"Latte art? Like a drawing of coffee? And you eat the paper?"
 mc"No, they ummm... Make like an image ontop of the coffee by pouring the coffee into the foamed milk so it makes a picture"
 ali"You guys really love drinking stuff from cow boob's huh? Is it like a sex-thing or..."
 mc"No!"
-ali"So lemme get this stragiht? Somebody like, puts in the effort to make some kind of drawing out of foam, and then you just... drink it?"
+ali"So lemme get this straight? Somebody like, puts in the effort to make some kind of drawing out of foam, and then you just... drink it?"
 mc"Yeah"
 ali"I've have never heard of something"
 ali"So"
@@ -433,7 +438,7 @@ mc"You've been alive for like 24 hours"
 ali"THE POINT IS! Why would you make something that's just going to get destroyed a few minutes later? What's the point?"
 
 #Kind of a metaphor for life, especially with it being as short as it is
-
+## I think draw a direct response to HER. You can even make the MC have autistic Rizz where he says something like "Well arent you something beautiful that was made only to be destroyed later"
 mc"Okay so if it's so stupid, then what ARE you going to order then"
 ali"..."
 ali"Fine, you've peaked my interest, let's see what this is about"
@@ -475,6 +480,7 @@ na"When words can't"
 na"So I guess it's like... It doesn't matter if my art lasts a second or thousand years, as long as I can try to share that feeling with someone" 
 ali"..."
 na"Sorry, I guess I talked a bit too much... Anyways, I hope you enjoy your coffee"
+## I think random waiter mans backstory is good but he has WAY too much. You can have the MC and Alice discuss some of these topics together to help her get a better understanding of what ART is
 "He walks back to his station at the front, and picks up his pencil again"
 "Alice looks down into her cup for a few seconds as if thinking deeply about something"
 "And then suddenly picks up the cup and presses it to her lips"
@@ -496,7 +502,7 @@ ali"I guess... I just have some stuff to think about... About me... About... You
 ali"But anyway, the taste was nostalgic and I think maybe... I don't hate coffee"
 mc"That's great to hear."
 mc"You seemed like you were thinking pretty hard looking into the mug. What were you thinking about?"
-
+## I LOVE your idea of having the coffee taste like her mycelium
 if(arcadeWent):
    jump coffeeTalkArcade
 
@@ -570,6 +576,7 @@ ali"You were going to be all over me, and I was going to feel good about that"
 ali"Because that was proof that I succeeded in my purpose"
 ali"But you were too much of a little bitch to do anything and made me cry"
 mc"I'm sorry, you know that I didn't mean it like that, I'm just-"
+## I love this whole exchange. good job
 show alice smile
 
 ali"I know, don't worry about it"
@@ -621,7 +628,7 @@ ali"What you'd rather I was dead?"
 mc"No I- Actually no, I'm not gunna take the bait this time"
 ali"Awww, but it worked before"
 mc"I was just trying to say that there needs to be a reason you know all of this stuff?"
-ali"Yeah well... Didn't you like buy me off of the internet from some sketchy darkweb site or something"
+ali"Yeah well... Didn't you like buy me off of the internet from some sketchy darkweb site or something" ## maybe a bit too referential.
 mc"IT WASN'T THE DARKWEB"
 mc"But yeah, I guess I wouldn't put it past that site to do something like that"
 mc"I guess everything you knew makes sense for the purpose of what you were being sold for"
@@ -711,7 +718,7 @@ mc"..."
 "You open your mouth in an attempt to muster up something to say"
 ali"You know..."
 mc"?!"
-ali"When people see a mushroom with spots like me... What do you think they think?"
+ali"When people see a mushroom with spots like me... What do you think they think?" ## Mention that maybe she saw these stereotypes or thoughts online
 mc"Ummm... I uh... I think ummm like"
 ali"Death... Toxicity... Poison... Hysteria"
 ali"But you know... I'm not even that toxic"
